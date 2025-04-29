@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block page_content %}
+<h1>PDF upload</h1>
+<form action="{{ url_for('upload_pdf') }}" method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="pdf_file" class="form-label">Select PDF file:</label>
+        <input class="form-control" type="file" id="pdf_file" name="pdf_file" accept="application/pdf" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Convert</button>
+</form>
+{% endblock %}
