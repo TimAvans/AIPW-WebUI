@@ -1,0 +1,4 @@
+{
+    "parameters": [],
+    "pdf_extraction_prompt": "<context>\r\nSummarize the contents of the attached base64 encoded pdf\r\n</context>\r\n\r\n<instructions>\r\n</instructions>\r\n\r\n<output>\r\n</output>"
+}
