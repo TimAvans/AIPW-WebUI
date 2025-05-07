@@ -5,7 +5,6 @@ import secrets
 from flask_bootstrap import Bootstrap
 
 from services.openrouter_service import OpenRouterService
-from prompt import PDF_EXTRACTION_PROMPT
 
 app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
@@ -17,17 +16,18 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 openrouter_controller = OpenRouterService()
 
-PROMPT_FILE = "prompt.json"
+CONFIG_FILE = "prompt.json"
 
 @app.route('/')
 def home():
     prompt = ""
-    if os.path.exists(PROMPT_FILE):
-        with open(PROMPT_FILE, "r", encoding="utf-8") as f:
+    if os.path.exists(CONFIG_FILE):
+        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
             prompt_data = json.load(f)
             prompt = prompt_data.get("pdf_extraction_prompt", "")
+            model = prompt_data.get("pdf_extraction_model", "")
 
-    return render_template('home.html', current_prompt=prompt)
+    return render_template('home.html', current_prompt=prompt, current_model=model)
 
 @app.route("/update-prompt", methods=["POST"])
 def update_prompt():
@@ -38,8 +38,8 @@ def update_prompt():
 
     try:
         prompt_data = {}
-        if os.path.exists(PROMPT_FILE):
-            with open(PROMPT_FILE, "r", encoding="utf-8") as f:
+        if os.path.exists(CONFIG_FILE):
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
                 prompt_data = json.load(f)
 
         if prompt_data["pdf_extraction_prompt"] == prompt:
@@ -47,14 +47,37 @@ def update_prompt():
         else:    
             prompt_data["pdf_extraction_prompt"] = prompt
 
-            with open(PROMPT_FILE, "w", encoding="utf-8") as f:
+            with open(CONFIG_FILE, "w", encoding="utf-8") as f:
                 json.dump(prompt_data, f, indent=4)
 
             flash("Prompt updated successfully")
             return redirect(url_for('home'))
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
+
+@app.route("/update-model", methods=["POST"])
+def update_model():
+    model = request.form.get("model")
+
+    try:
+        config_data = {}
+        if os.path.exists(CONFIG_FILE):
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+                config_data = json.load(f)
+
+        if config_data["pdf_extraction_model"] == model:
+            return redirect(url_for('home'))
+        else:    
+            config_data["pdf_extraction_model"] = model
+
+            with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+                json.dump(config_data, f, indent=4)
+
+            flash("Model updated successfully")
+            return redirect(url_for('home'))
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/upload', methods=['POST'])
 def upload_pdf():
     if 'pdf_file' not in request.files:

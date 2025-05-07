@@ -21,4 +21,14 @@
     </div>
     <button type="submit" class="btn btn-success">Update Prompt</button>
 </form>
+
+<!-- Prompt Update Form -->
+<h2>Edit Extraction Model</h2>
+<form action="{{ url_for('update_model') }}" method="POST">
+    <div class="mb-3">
+        <label for="model" class="form-label">Model:</label>
+        <textarea class="form-control" id="model" name="model" rows="10" required>{{ current_model }}</textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Update Model</button>
+</form>
 {% endblock %}
