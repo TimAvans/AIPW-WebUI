@@ -1,0 +1,112 @@
+id,72
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,"Acceptability of Intervention Measure (AIM), Intervention Appropriateness Measure (IAM), Feasibility of Intervention Measure (FIM)"
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,AIMIAMFIM
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""AIM_Total"", ""[AIMIAMFIM_AIM_1_score] + [AIMIAMFIM_AIM_2_score] + [AIMIAMFIM_AIM_3_score] + [AIMIAMFIM_AIM_4_score]"", ""AIM Total"", 0.0, """", """"], []], [[""IAM_Total"", ""[AIMIAMFIM_IAM_1_score] + [AIMIAMFIM_IAM_2_score] + [AIMIAMFIM_IAM_3_score] + [AIMIAMFIM_IAM_4_score]"", ""IAM Total"", 0.0, """", """"], []], [[""FIM_Total"", ""[AIMIAMFIM_FIM_1_score] + [AIMIAMFIM_FIM_2_score] + [AIMIAMFIM_FIM_3_score] + [AIMIAMFIM_FIM_4_score]"", ""FIM Total"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[30, 1, ""AIM""], [31, 2, ""IAM""], [32, 3, ""FIM""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+337,"",Instruction,,,,,,,true,false,false,"","",<p>Below is a list of statements about your experience with the My Personal Rehab intervention. Please select the statement that is most true for you:</p>,false,AIM_info,,false,Acceptability of Intervention Measure,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",30,false,false,"""[]"""
+325,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,AIM_1,,false,The intervention meets my approval,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",30,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,793,1,325,1.0,Completely disagree,""
+ ,794,2,325,2.0,Disagree,""
+ ,795,3,325,3.0,Neither agree nor disagree,""
+ ,796,4,325,4.0,Agree,""
+ ,797,5,325,5.0,Completely agree,""
+326,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,AIM_2,,false,The intervention is appealing to me,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",30,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,798,1,326,1.0,Completely disagree,""
+ ,799,2,326,2.0,Disagree,""
+ ,800,3,326,3.0,Neither agree nor disagree,""
+ ,801,4,326,4.0,Agree,""
+ ,802,5,326,5.0,Completely agree,""
+327,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,AIM_3,,false,I like the intervention,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",30,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,803,1,327,1.0,Completely disagree,""
+ ,804,2,327,2.0,Disagree,""
+ ,805,3,327,3.0,Neither agree nor disagree,""
+ ,806,4,327,4.0,Agree,""
+ ,807,5,327,5.0,Completely agree,""
+328,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,AIM_4,,false,I welcome the intervention,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",30,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,808,1,328,1.0,Completely disagree,""
+ ,809,2,328,2.0,Disagree,""
+ ,810,3,328,3.0,Neither agree nor disagree,""
+ ,811,4,328,4.0,Agree,""
+ ,812,5,328,5.0,Completely agree,""
+338,"",Instruction,,,,,,,true,false,false,"","",<p>Below is a list of statements about your experience with the My Personal Rehab intervention. Please select the statement that is most true for you:</p>,false,IAM_info,,false,Intervention Appropriateness Measure,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",31,false,false,"""[]"""
+329,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,IAM_1,,false,The intervention seems fitting,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",31,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,813,1,329,1.0,Completely disagree,""
+ ,814,2,329,2.0,Disagree,""
+ ,815,3,329,3.0,Neither agree nor disagree,""
+ ,816,4,329,4.0,Agree,""
+ ,817,5,329,5.0,Completely agree,""
+330,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,IAM_2,,false,The intervention seems suitable,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",31,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,818,1,330,1.0,Completely disagree,""
+ ,819,2,330,2.0,Disagree,""
+ ,820,3,330,3.0,Neither agree nor disagree,""
+ ,821,4,330,4.0,Agree,""
+ ,822,5,330,5.0,Completely agree,""
+331,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,IAM_3,,false,The intervention seems applicable,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",31,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,823,1,331,1.0,Completely disagree,""
+ ,824,2,331,2.0,Disagree,""
+ ,825,3,331,3.0,Neither agree nor disagree,""
+ ,826,4,331,4.0,Agree,""
+ ,827,5,331,5.0,Completely agree,""
+332,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,IAM_4,,false,The intervention seems like a good match,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",31,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,828,1,332,1.0,Completely disagree,""
+ ,829,2,332,2.0,Disagree,""
+ ,830,3,332,3.0,Neither agree nor disagree,""
+ ,831,4,332,4.0,Agree,""
+ ,832,5,332,5.0,Completely agree,""
+339,"",Instruction,,,,,,,true,false,false,"","",<p>Below is a list of statements about your experience with the My Personal Rehab intervention. Please select the statement that is most true for you:</p>,false,FIM_info,,false,Feasibility of Intervention Measure,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",32,false,false,"""[]"""
+333,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,FIM_1,,false,The intervention seems implementable,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",32,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,833,1,333,1.0,Completely disagree,""
+ ,834,2,333,2.0,Disagree,""
+ ,835,3,333,3.0,Neither agree nor disagree,""
+ ,836,4,333,4.0,Agree,""
+ ,837,5,333,5.0,Completely agree,""
+334,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,FIM_2,,false,The intervention seems possible,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",32,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,838,1,334,1.0,Completely disagree,""
+ ,839,2,334,2.0,Disagree,""
+ ,840,3,334,3.0,Neither agree nor disagree,""
+ ,841,4,334,4.0,Agree,""
+ ,842,5,334,5.0,Completely agree,""
+335,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,FIM_3,,false,The intervention seems doable,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",32,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,843,1,335,1.0,Completely disagree,""
+ ,844,2,335,2.0,Disagree,""
+ ,845,3,335,3.0,Neither agree nor disagree,""
+ ,846,4,335,4.0,Agree,""
+ ,847,5,335,5.0,Completely agree,""
+336,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,FIM_4,,false,The intervention seems easy to use,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",32,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,848,1,336,1.0,Completely disagree,""
+ ,849,2,336,2.0,Disagree,""
+ ,850,3,336,3.0,Neither agree nor disagree,""
+ ,851,4,336,4.0,Agree,""
+ ,852,5,336,5.0,Completely agree,""

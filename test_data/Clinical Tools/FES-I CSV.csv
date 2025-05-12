@@ -1,0 +1,126 @@
+id,158
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,FES-I
+subtitle,Falls Efficacy Scale-International
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,FES
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""total"", ""[FES_cleaning_score] + [FES_dressing_score] + [FES_cooking_score] + [FES_bathing_score] + [FES_shopping_score] + [FES_inout_chair_score] + [FES_updown_stairs_score] + [FES_walking_neighbourhood_score] + [FES_picking_up_score] + [FES_telephone_score] + [FES_walking_slippery_surface_score] + [FES_visiting_score] + [FES_walking_in_crowds_score] + [FES_walking_uneven_surface_score] + [FES_walking_on_slope_score] + [FES_social_event_score]"", ""FES-I Total"", 0.0, """", """"], [[""High Concern for Falling"", ""#000000"", "">"", 23.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[419, 1, ""1""], [420, 2, ""2""], [421, 3, ""3""], [422, 4, ""4""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+3733,"",Instruction,,,,,,,true,false,false,"","","<p>Now we would like to ask some questions about how concerned you are about the possibility of falling. Please reply thinking about how you usually do the activity. If you currently don’t do the activity (e.g. if someone does your shopping for you), please answer to show whether you think you would be concerned about falling IF you did the activity. For each of the following activities, please select the option which is closest to your own opinion to show how concerned you are that you might fall if you did this activity. </p>",false,intro,,false,FES-I,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+3734,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,cleaning,,false,"Cleaning the house (e.g. sweep, vacuum or dust)","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",419,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8036,1,3734,1.0,Not at all concerned,""
+ ,8037,2,3734,2.0,Somewhat concerned,""
+ ,8038,3,3734,3.0,Fairly concerned,""
+ ,8039,4,3734,4.0,Very concerned,""
+3735,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,dressing,,false,Getting dressed or undressed,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",419,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8040,1,3735,1.0,Not at all concerned,""
+ ,8041,2,3735,2.0,Somewhat concerned,""
+ ,8042,3,3735,3.0,Fairly concerned,""
+ ,8043,4,3735,4.0,Very concerned,""
+3736,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,cooking,,false,Preparing simple meals,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",419,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8044,1,3736,1.0,Not at all concerned,""
+ ,8045,2,3736,2.0,Somewhat concerned,""
+ ,8046,3,3736,3.0,Fairly concerned,""
+ ,8047,4,3736,4.0,Very concerned,""
+3737,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,bathing,,false,Taking a bath or shower,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",419,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8048,1,3737,1.0,Not at all concerned,""
+ ,8049,2,3737,2.0,Somewhat concerned,""
+ ,8050,3,3737,3.0,Fairly concerned,""
+ ,8051,4,3737,4.0,Very concerned,""
+3752,"",Instruction,,,,,,,true,false,false,"","",<p>FES-I: Prof Lucy Yardley and Prof Chris Todd</p>,false,footer1,,false,Footer,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",419,false,false,"""[]"""
+3738,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,shopping,,false,Going to the shop,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",420,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8052,1,3738,1.0,Not at all concerned,""
+ ,8053,2,3738,2.0,Somewhat concerned,""
+ ,8054,3,3738,3.0,Fairly concerned,""
+ ,8055,4,3738,4.0,Very concerned,""
+3739,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,inout_chair,,false,Getting in or out of a chair,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",420,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8056,1,3739,1.0,Not at all concerned,""
+ ,8057,2,3739,2.0,Somewhat concerned,""
+ ,8058,3,3739,3.0,Fairly concerned,""
+ ,8059,4,3739,4.0,Very concerned,""
+3740,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,updown_stairs,,false,Going up or down stairs,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",420,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8060,1,3740,1.0,Not at all concerned,""
+ ,8061,2,3740,2.0,Somewhat concerned,""
+ ,8062,3,3740,3.0,Fairly concerned,""
+ ,8063,4,3740,4.0,Very concerned,""
+3741,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,walking_neighbourhood,,false,Walking around in the neighbourhood,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",420,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8064,1,3741,1.0,Not at all concerned,""
+ ,8065,2,3741,2.0,Somewhat concerned,""
+ ,8066,3,3741,3.0,Fairly concerned,""
+ ,8067,4,3741,4.0,Very concerned,""
+3753,"",Instruction,,,,,,,true,false,false,"","",<p>FES-I: Prof Lucy Yardley and Prof Chris Todd</p>,false,footer2,,false,Footer,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",420,false,false,"""[]"""
+3742,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,picking_up,,false,Reaching for something above your head or on the ground,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",421,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8068,1,3742,1.0,Not at all concerned,""
+ ,8069,2,3742,2.0,Somewhat concerned,""
+ ,8070,3,3742,3.0,Fairly concerned,""
+ ,8071,4,3742,4.0,Very concerned,""
+3743,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,telephone,,false,Going to answer the telephone before it stops ringing,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",421,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8072,1,3743,1.0,Not at all concerned,""
+ ,8073,2,3743,2.0,Somewhat concerned,""
+ ,8074,3,3743,3.0,Fairly concerned,""
+ ,8075,4,3743,4.0,Very concerned,""
+3744,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,walking_slippery_surface,,false,Walking on a slippery surface (e.g. wet or icy),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",421,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8076,1,3744,1.0,Not at all concerned,""
+ ,8077,2,3744,2.0,Somewhat concerned,""
+ ,8078,3,3744,3.0,Fairly concerned,""
+ ,8079,4,3744,4.0,Very concerned,""
+3745,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,visiting,,false,Visiting a friend or relative,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",421,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8080,1,3745,1.0,Not at all concerned,""
+ ,8081,2,3745,2.0,Somewhat concerned,""
+ ,8082,3,3745,3.0,Fairly concerned,""
+ ,8083,4,3745,4.0,Very concerned,""
+3754,"",Instruction,,,,,,,true,false,false,"","",<p>FES-I: Prof Lucy Yardley and Prof Chris Todd</p>,false,footer3,,false,Footer,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",421,false,false,"""[]"""
+3746,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,walking_in_crowds,,false,Walking in a place with crowds,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",422,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8084,1,3746,1.0,Not at all concerned,""
+ ,8085,2,3746,2.0,Somewhat concerned,""
+ ,8086,3,3746,3.0,Fairly concerned,""
+ ,8087,4,3746,4.0,Very concerned,""
+3747,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,walking_uneven_surface,,false,"Walking on an uneven surface (e.g. rocky ground, poorly maintained pavement)","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",422,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8088,1,3747,1.0,Not at all concerned,""
+ ,8089,2,3747,2.0,Somewhat concerned,""
+ ,8090,3,3747,3.0,Fairly concerned,""
+ ,8091,4,3747,4.0,Very concerned,""
+3748,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,walking_on_slope,,false,Walking up or down a slope,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",422,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8092,1,3748,1.0,Not at all concerned,""
+ ,8093,2,3748,2.0,Somewhat concerned,""
+ ,8094,3,3748,3.0,Fairly concerned,""
+ ,8095,4,3748,4.0,Very concerned,""
+3749,"",SingleChoiceQuestion,,,,,,,true,false,true,FES-I: Prof Lucy Yardley and Prof Chris Todd,"",,true,social_event,,false,"Going out to a social event (e.g. religious service, family gathering or club meeting)","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",422,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8096,1,3749,1.0,Not at all concerned,""
+ ,8097,2,3749,2.0,Somewhat concerned,""
+ ,8098,3,3749,3.0,Fairly concerned,""
+ ,8099,4,3749,4.0,Very concerned,""
+3755,"",Instruction,,,,,,,true,false,false,"","",<p>FES-I: Prof Lucy Yardley and Prof Chris Todd</p>,false,footer4,,false,Footer,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",422,false,false,"""[]"""

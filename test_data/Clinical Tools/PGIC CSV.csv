@@ -1,0 +1,35 @@
+id,159
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,PGIC
+subtitle,Patient's Global Impression of Change (PGIC) Scale
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,true
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,PGIC
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,[]
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+3750,"",SingleChoiceQuestion,,,,,,,true,false,true,"Reference: Hurst H, Bolton J. Assessing the clinical significance of change scores recorded on subjective outcome measures. J Manipulative Physiol Ther 2004;27:26-35.","",,true,change,,false,"Since beginning treatment at this clinic, how would you describe the change (if any) in ACTIVITY LIMITATIONS, SYMPTOMS, EMOTIONS and OVERALL QUALITY OF LIFE, related to your painful condition? (select ONE option)","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8100,1,3750,1.0,No change (or condition has got worse),""
+ ,8101,2,3750,2.0,"Almost the same, hardly any change at all",""
+ ,8102,3,3750,3.0,"A little better, but no noticeable change",""
+ ,8103,4,3750,4.0,"Somewhat better, but the change has not made any real world difference",""
+ ,8104,5,3750,5.0,"Moderately better, and a slight but noticeable change",""
+ ,8105,6,3750,6.0,"Better, and a definite improvement that has made a real and worthwhile difference",""
+ ,8106,7,3750,7.0,"A great deal better, and a considerable improvement that has made all the difference",""
+3751,"",RangeSliderQuestion,0.0,10.0,5.0,1.0,,,true,false,false,"Reference: Hurst H, Bolton J. Assessing the clinical significance of change scores recorded on subjective outcome measures. J Manipulative Physiol Ther 2004;27:26-35.","",,true,degree_change,,false,"In a similar way, please slide to indicate the number below, that matches your degree of change since beginning care at this clinic:","",Much Better,false,Much Worse,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""

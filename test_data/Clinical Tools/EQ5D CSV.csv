@@ -1,0 +1,61 @@
+id,190
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,EQ-5D-5L Quality of Life Survey
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,This questionnaire will approximately take 2-5 minutes to complete.
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,EQ5D5L
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""paining"", ""[EQ5D5L_pain_score]"", ""EQ5D5L Pain Score"", 0.0, """", """"], [[""Level 1"", ""#000000"", ""=="", 1.0], [""Level 2"", ""#000000"", ""=="", 2.0], [""Level 3"", ""#000000"", ""=="", 3.0], [""Level 4"", ""#000000"", ""=="", 4.0], [""Level 5"", ""#000000"", ""=="", 5.0]]], [[""anxious"", ""[EQ5D5L_anxiety_score]"", ""EQ5D5L Anxiety Score"", 0.0, """", """"], [[""Level 1"", ""#000000"", ""=="", 1.0], [""Level 2"", ""#000000"", ""=="", 2.0], [""Level 3"", ""#000000"", ""=="", 3.0], [""Level 4"", ""#000000"", ""=="", 4.0], [""Level 5"", ""#000000"", ""=="", 5.0]]], [[""mobile"", ""[EQ5D5L_mobiltiy_score]"", ""EQ5D5L Mobility Score"", 0.0, """", """"], [[""Level 1"", ""#000000"", ""=="", 1.0], [""Level 2"", ""#000000"", ""=="", 2.0], [""Level 3"", ""#000000"", ""=="", 3.0], [""Level 4"", ""#000000"", ""=="", 4.0], [""Level 5"", ""#000000"", ""=="", 5.0]]], [[""care"", ""[EQ5D5L_self_care_score]"", ""EQ5D5L Self Care  Score"", 0.0, """", """"], [[""Level 1"", ""#000000"", ""=="", 1.0], [""Level 2"", ""#000000"", ""=="", 2.0], [""Level 3"", ""#000000"", ""=="", 3.0], [""Level 4"", ""#000000"", ""=="", 4.0], [""Level 5"", ""#000000"", ""=="", 5.0]]], [[""daily_activities"", ""[EQ5D5L_usual_act_score]"", ""EQ5D5L Usual Activity Score"", 0.0, """", """"], [[""Level 1"", ""#000000"", ""=="", 1.0], [""Level 2"", ""#000000"", ""=="", 2.0], [""Level 3"", ""#000000"", ""=="", 3.0], [""Level 4"", ""#000000"", ""=="", 4.0], [""Level 5"", ""#000000"", ""=="", 5.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+829,"",SingleChoiceQuestion,,,,,,,true,false,true,<em>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation</em>,"",,true,mobiltiy,,false,"Under each heading, please select the ONE box that best describes your health TODAY.",<strong>MOBILITY</strong>,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1147,1,829,1.0,I have no problems in walking about,""
+ ,1148,2,829,2.0,I have slight problems in walking about,""
+ ,1149,3,829,3.0,I have moderate problems in walking about,""
+ ,2413,4,829,4.0,I have severe problems in walking about,""
+ ,2414,5,829,5.0,I am unable to walk about,""
+830,"",SingleChoiceQuestion,,,,,,,true,false,true,<em>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation</em>,"",,true,self_care,,false,"Under each heading, please select the ONE box that best describes your health TODAY.",<strong>SELF-CARE</strong>,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,[]
+ ,id,index,question_id,score,text,external_id
+ ,2415,4,830,4.0,I have severe problems washing or dressing myself,""
+ ,2416,5,830,5.0,I am unable to wash or dress myself,""
+ ,1150,1,830,1.0,I have no problems washing or dressing myself,""
+ ,1151,2,830,2.0,I have slight problems washing or dressing myself,""
+ ,1152,3,830,3.0,I have moderate problems washing or dressing myself,""
+831,"",SingleChoiceQuestion,,,,,,,true,false,true,<em>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation</em>,"",,true,usual_act,,false,"Under each heading, please select the ONE box that best describes your health TODAY.","<strong>USUAL ACTIVITIES</strong> <em>(e.g., work, study, housework, family or leisure activities)</em>",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,[]
+ ,id,index,question_id,score,text,external_id
+ ,2417,4,831,4.0,I have severe problems doing my usual activities,""
+ ,2418,5,831,5.0,I am unable to do my usual activities,""
+ ,1153,1,831,1.0,I have no problems doing my usual activities,""
+ ,1154,2,831,2.0,I have slight problems doing my usual activities,""
+ ,1155,3,831,3.0,I have moderate problems doing my usual activities,""
+832,"",SingleChoiceQuestion,,,,,,,true,false,true,<em>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation</em>,"",,true,pain,,false,"Under each heading, please select the ONE box that best describes your health TODAY.",<strong>PAIN / DISCOMFORT</strong>,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,[]
+ ,id,index,question_id,score,text,external_id
+ ,1156,1,832,1.0,I have no pain or discomfort,""
+ ,1157,2,832,2.0,I have slight pain or discomfort,""
+ ,1158,3,832,3.0,I have moderate pain or discomfort,""
+ ,2419,4,832,4.0,I have severe pain or discomfort,""
+ ,2420,5,832,5.0,I have extreme pain or discomfort,""
+833,"",SingleChoiceQuestion,,,,,,,true,false,true,<em>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation</em>,"",,true,anxiety,,false,"Under each heading, please select the ONE box that best describes your health TODAY.",<strong>ANXIETY / DEPRESSION</strong>,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,[]
+ ,id,index,question_id,score,text,external_id
+ ,1159,1,833,1.0,I am not anxious or depressed,""
+ ,1160,2,833,2.0,I am slightly anxious or depressed,""
+ ,1161,3,833,3.0,I am moderately anxious or depressed,""
+ ,2421,4,833,4.0,I am severely anxious or depressed,""
+ ,2422,5,833,5.0,I am extremely anxious or depressed,""
+834,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,<em>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation</em>,"",,true,vas,,false,<p>We would like to know how good or bad your health is TODAY.</p><p> </p>,"This scale is numbered from 0 to 100.<br>100 means the best health you can imagine. <br>0 means the worst health you can imagine.<br><br>Now, please write the number you marked on the scale in the box below.",The worst health you can imagine,false,The best health you can imagine,Enter your response here,vertical,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""

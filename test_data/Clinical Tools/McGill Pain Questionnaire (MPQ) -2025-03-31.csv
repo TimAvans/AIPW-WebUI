@@ -1,0 +1,115 @@
+id,69
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,McGill Pain Questionnaire (MPQ) 
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,What does your pain feel like?<br><br>Some of the following words describe your present pain. Please select <strong>ONLY </strong>those words that best describe it. Leave out any category that is not suitable. Use only a single word in each appropriate category - the one that applies best.
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,MPQ
+new,true
+allow_instructions,true
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""MPQ_Sensory_Score"", ""[MPQ_MPQ_throbbing_score] + [MPQ_MPQ_shooting_score] + [MPQ_MPQ_stabbing_score] + [MPQ_MPQ_sharp_score] + [MPQ_MPQ_cramping_score] + [MPQ_MPQ_gnawing_score] + [MPQ_MPQ_hot_burning_score] + [MPQ_MPQ_aching_score] + [MPQ_MPQ_heavy_score] + [MPQ_MPQ_tender_score] + [MPQ_MPQ_splitting_score]"", ""MPQ Sensory Total"", 0.0, """", """"], []], [[""MPQ_Affective_Score"", ""[MPQ_MPQ_tiring_exhausting_score] + [MPQ_MPQ_sickening_score] + [MPQ_MPQ_fearful_score] + [MPQ_MPQ_punishing_cruel_score]"", ""MPQ Affective Total"", 0.0, """", """"], []], [[""MPQ_Total_Score"", ""[MPQ_MPQ_throbbing_score] + [MPQ_MPQ_shooting_score] + [MPQ_MPQ_stabbing_score] + [MPQ_MPQ_sharp_score] + [MPQ_MPQ_cramping_score] + [MPQ_MPQ_gnawing_score] + [MPQ_MPQ_hot_burning_score] + [MPQ_MPQ_aching_score] + [MPQ_MPQ_heavy_score] + [MPQ_MPQ_tender_score] + [MPQ_MPQ_splitting_score] + [MPQ_MPQ_tiring_exhausting_score] + [MPQ_MPQ_sickening_score] + [MPQ_MPQ_fearful_score] + [MPQ_MPQ_punishing_cruel_score]"", ""MPQ Total"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[29, 1, ""What Does Your Pain Feel Like?     ""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+296,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_throbbing,,false,Throbbing,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,640,0,296,0.0,None,""
+ ,641,1,296,1.0,Mild,""
+ ,642,2,296,2.0,Moderate,""
+ ,643,3,296,3.0,Severe,""
+297,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_shooting,,false,Shooting,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,644,0,297,0.0,None,""
+ ,645,1,297,0.0,Mild,""
+ ,646,2,297,2.0,Moderate,""
+ ,647,3,297,3.0,Severe,""
+298,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_stabbing,,false,Stabbing,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,648,0,298,0.0,None,""
+ ,649,1,298,1.0,Mild,""
+ ,650,2,298,2.0,Moderate,""
+ ,651,3,298,3.0,Severe,""
+299,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_sharp,,false,Sharp,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,655,3,299,3.0,Severe,""
+ ,652,0,299,0.0,None,""
+ ,653,1,299,1.0,Mild,""
+ ,654,2,299,2.0,Moderate,""
+300,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_cramping,,false,Cramping,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,657,1,300,1.0,Mild,""
+ ,658,2,300,2.0,Moderate,""
+ ,659,3,300,3.0,Severe,""
+ ,656,0,300,0.0,None,""
+301,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_gnawing,,false,Gnawing,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,660,0,301,0.0,None,""
+ ,661,1,301,1.0,Mild,""
+ ,662,2,301,2.0,Moderate,""
+ ,663,3,301,3.0,Severe,""
+302,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_hot_burning,,false,Hot/burning,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,664,0,302,0.0,None,""
+ ,665,1,302,1.0,Mild,""
+ ,666,2,302,2.0,Moderate,""
+ ,667,3,302,3.0,Severe,""
+303,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_aching,,false,Aching,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,670,2,303,2.0,Moderate,""
+ ,671,3,303,3.0,Severe,""
+ ,668,0,303,0.0,None,""
+ ,669,1,303,1.0,Mild,""
+304,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_heavy,,false,Heavy,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,672,0,304,0.0,None,""
+ ,673,1,304,1.0,Mild,""
+ ,674,2,304,2.0,Moderate,""
+ ,675,3,304,3.0,Severe,""
+305,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_tender,,false,Tender,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,676,0,305,0.0,None,""
+ ,677,1,305,1.0,Mild,""
+ ,678,2,305,2.0,Moderate,""
+ ,679,3,305,3.0,Severe,""
+306,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_splitting,,false,Splitting,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,680,0,306,0.0,None,""
+ ,681,1,306,1.0,Mild,""
+ ,682,2,306,2.0,Moderate,""
+ ,683,3,306,3.0,Severe,""
+307,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_tiring_exhausting,,false,Tiring/exhausting,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,684,0,307,0.0,None,""
+ ,685,1,307,1.0,Mild,""
+ ,686,2,307,2.0,Moderate,""
+ ,687,3,307,3.0,Severe,""
+308,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_sickening,,false,Sickening,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,688,0,308,0.0,None,""
+ ,689,1,308,1.0,Mild,""
+ ,690,2,308,2.0,Moderate,""
+ ,691,3,308,3.0,Severe,""
+309,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_fearful,,false,Fearful,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,692,0,309,0.0,None,""
+ ,693,1,309,1.0,Mild,""
+ ,694,2,309,2.0,Moderate,""
+ ,695,3,309,3.0,Severe,""
+310,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,MPQ_punishing_cruel,,false,Punishing/cruel,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,696,0,310,0.0,None,""
+ ,697,1,310,1.0,Mild,""
+ ,698,2,310,2.0,Moderate,""
+ ,699,3,310,3.0,Severe,""

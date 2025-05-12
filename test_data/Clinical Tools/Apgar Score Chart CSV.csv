@@ -1,0 +1,81 @@
+id,67
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,Apgar Score Chart
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,apgarscore
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""One_minute_after_birth"", ""[apgarscore_activity_score] + [apgarscore_pulse_score] + [apgarscore_grimace_score] + [apgarscore_appearance_score] + [apgarscore_respiration_score]"", ""One Minute After Birth Score"", 0.0, """", """"], [[""Baby needs immediate help"", ""#000000"", ""<="", 3.0], [""Baby needs assistance breathing"", ""#000000"", ""<="", 6.0], [""Baby may need help"", ""#000000"", ""<="", 7.0]]], [[""Five_minutes_after_birth"", ""[apgarscore_activity_five_score] + [apgarscore_pulse_five_score] + [apgarscore_grimace_five_score] + [apgarscore_appearance_five_score] + [apgarscore_respiration_five_score]"", ""Five Minutes After Birth Score"", 0.0, """", """"], [[""Baby needs more medical help"", ""#000000"", ""<="", 6.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[113, 1, ""One minute after birth""], [114, 2, ""Five minutes after birth""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+893,"",Instruction,,,,,,,true,false,false,"","","<h2>One minute after birth</h2>
+<p>Please select appropriate option against each criteria.</p>",false,title,,false,One minute after birth,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",113,false,false,"""[]"""
+827,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,activity,,false,Activity (muscle tone),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",113,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3059,1,827,1.0,"None, limp, or muscles are floppy",""
+ ,3060,2,827,2.0,Some flexion of arms and legs,""
+ ,3061,3,827,3.0,Active motion and flexion; arms and legs resist extension,""
+828,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,pulse,,false,Pulse (heart rate),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",113,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3062,1,828,1.0,Absent or no heart rate,""
+ ,3063,2,828,2.0,Less than 100 beats per minute,""
+ ,3064,3,828,3.0,At least 100 beats per minute,""
+829,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,grimace,,false,Grimace (reflexes),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",113,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3065,1,829,1.0,No response to stimulation,""
+ ,3066,2,829,2.0,Facial grimace during stimulation or suction,""
+ ,3067,3,829,3.0,"Cries, pulls away, coughs, or sneezes upon stimulation",""
+830,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,appearance,,false,Appearance (skin color),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",113,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3068,1,830,1.0,Body is blue or pale,""
+ ,3069,2,830,2.0,Pink body with bluish extremities (hands/feet),""
+ ,3070,3,830,3.0,Body and extremities are pink,""
+831,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,respiration,,false,Respiration (breathing),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",113,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3071,1,831,1.0,Not breathing,""
+ ,3072,2,831,2.0,"Weak, slow, or irregular breathing",""
+ ,3073,3,831,3.0,Strong crying; normal rate of breathing,""
+912,"",Instruction,,,,,,,true,false,false,"","","<p><em>American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/</em></p>",false,question_912,,false,footer,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",113,false,false,"""[]"""
+911,"",Instruction,,,,,,,true,false,false,"","","<h2>Five minutes after birth</h2>
+<p>Please select appropriate option against each criteria.</p>",false,title2,,false,Five minutes after birth,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",114,false,false,"""[]"""
+832,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,activity_five,,false,Activity (muscle tone),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",114,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3074,1,832,1.0,"None, limp, or muscles are floppy",""
+ ,3075,2,832,2.0,Some flexion of arms and legs,""
+ ,3076,3,832,3.0,Active motion and flexion; arms and legs resist extension,""
+833,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,pulse_five,,false,Pulse (heart rate),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",114,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3077,1,833,1.0,Absent or no heart rate,""
+ ,3078,2,833,2.0,Less than 100 beats per minute,""
+ ,3079,3,833,3.0,At least 100 beats per minute,""
+834,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,grimace_five,,false,Grimace (reflexes),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",114,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3080,1,834,1.0,No response to stimulation,""
+ ,3081,2,834,2.0,Facial grimace during stimulation or suction,""
+ ,3082,3,834,3.0,"Cries, pulls away, coughs, or sneezes upon stimulation",""
+835,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,appearance_five,,false,Appearance (skin color),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",114,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3083,1,835,1.0,Body is blue or pale,""
+ ,3084,2,835,2.0,Pink body with bluish extremities (hands/feet),""
+ ,3085,3,835,3.0,Body and extremities are pink,""
+836,"",SingleChoiceQuestion,,,,,,,true,false,true,"American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/","",,true,respiration_five,,false,Respiration (breathing),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",114,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3086,1,836,1.0,Not breathing,""
+ ,3087,2,836,2.0,"Weak, slow, or irregular breathing",""
+ ,3088,3,836,3.0,Strong crying; normal rate of breathing,""
+910,"",Instruction,,,,,,,true,false,false,"","","<p><em>American College of Obstetricians and Gynecologists. (2015). The Apgar score. ACOG Clinical. https://www.acog.org/clinical/clinical-guidance/ committee-opinion/articles/2015/10/the-apgar-score  Apgar, V. (1953). A proposal for a new method of evaluation of the newborn infant. Current Researches in Anesthesia & Analgesia, 32(4), 260– 267. https://pubmed.ncbi.nlm.nih.gov/13083014/</em></p>",false,question_910,,false,footer,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",114,false,false,"""[]"""

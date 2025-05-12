@@ -1,0 +1,147 @@
+id,55
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,PedsQL PARENT REPORT for TEENS (ages 13-18) Acute Version
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,"<div>On the following page is a list of things that might be a problem for <strong>your teen</strong>. Please tell us <strong>how much of</strong> <strong>a problem</strong> each one has been for <strong>your teen</strong> during the <strong>past 7 days</strong> by circling:</div>
+<div><strong>0</strong> if it is <strong>never</strong> a problem</div>
+<div><strong>1</strong> if it is <strong>almost never</strong> a problem</div>
+<div><strong>2</strong> if it is <strong>sometimes</strong> a problem</div>
+<div><strong>3</strong> if it is <strong>often</strong> a problem</div>
+<div><strong>4</strong> if it is <strong>almost always</strong> a problem</div>
+<div>There are no right or wrong answers.</div>
+<div> If you do not understand a question, please ask for help.</div>"
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,questionnaire_55
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,[]
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[73, 1, ""PHYSICAL FUNCTIONING (problems with…)""], [74, 2, ""EMOTIONAL FUNCTIONING (problems with…)""], [75, 3, ""SOCIAL FUNCTIONING (problems with…)""], [76, 4, ""SCHOOL FUNCTIONING (problems with…)""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+746,"",Instruction,,,,,,,true,false,false,"PedsQL 4.0 - (13-18)     Copyright © 1998 JW Varni, Ph.D. All rights reserved",,"<div>On the following page is a list of things that might be a problem for <strong>your teen</strong>. Please tell us <strong>how much of</strong> <strong>a problem</strong> each one has been for <strong>your teen</strong> during the <strong>past 7 days</strong> by selecting:</div>
+<div> </div>
+<div><strong>0</strong> if it is <strong>never</strong> a problem</div>
+<div><strong>1</strong> if it is <strong>almost never</strong> a problem</div>
+<div><strong>2</strong> if it is <strong>sometimes</strong> a problem</div>
+<div><strong>3</strong> if it is <strong>often</strong> a problem</div>
+<div><strong>4</strong> if it is <strong>almost always</strong> a problem</div>
+<div> </div>
+<div>There are no right or wrong answers.</div>
+<div> If you do not understand a question, please ask for help.</div>",false,question_746,,false,<strong>DIRECTIONS</strong>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+600,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_492,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Walking more than one block,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",73,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2141,0,600,0.0,Never,""
+ ,2142,1,600,1.0,Almost Never,""
+ ,2143,2,600,2.0,Sometimes,""
+ ,2144,3,600,3.0,Often,""
+ ,2145,4,600,4.0,Almost Always,""
+601,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_493,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Running,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",73,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2146,0,601,0.0,Never,""
+ ,2147,1,601,1.0,Almost Never,""
+ ,2148,2,601,2.0,Sometimes,""
+ ,2149,3,601,3.0,Often,""
+ ,2150,4,601,4.0,Almost Always,""
+602,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_494,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Participating in sports activity or exercise,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",73,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2151,0,602,0.0,Never,""
+ ,2152,1,602,1.0,Almost Never,""
+ ,2153,2,602,2.0,Sometimes,""
+ ,2154,3,602,3.0,Often,""
+ ,2155,4,602,4.0,Almost Always,""
+603,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_495,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Lifting something heavy,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",73,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2156,0,603,0.0,Never,""
+ ,2157,1,603,1.0,Almost Never,""
+ ,2158,2,603,2.0,Sometimes,""
+ ,2159,3,603,3.0,Often,""
+ ,2160,4,603,4.0,Almost Always,""
+604,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_496,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Doing chores around the house,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",73,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2161,0,604,0.0,Never,""
+ ,2162,1,604,1.0,Almost Never,""
+ ,2163,2,604,2.0,Sometimes,""
+ ,2164,3,604,3.0,Often,""
+ ,2165,4,604,4.0,Almost Always,""
+605,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_497,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Feeling afraid or scared,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",74,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2166,0,605,0.0,Never,""
+ ,2167,1,605,1.0,Almost Never,""
+ ,2168,2,605,2.0,Sometimes,""
+ ,2169,3,605,3.0,Often,""
+ ,2170,4,605,4.0,Almost Always,""
+606,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_498,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Feeling sad or blue,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",74,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2171,0,606,0.0,Never,""
+ ,2172,1,606,1.0,Almost Never,""
+ ,2173,2,606,2.0,Sometimes,""
+ ,2174,3,606,3.0,Often,""
+ ,2175,4,606,4.0,Almost Always,""
+607,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_499,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Feeling angry,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",74,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2176,0,607,0.0,Never,""
+ ,2177,1,607,1.0,Almost Never,""
+ ,2178,2,607,2.0,Sometimes,""
+ ,2179,3,607,3.0,Often,""
+ ,2180,4,607,4.0,Almost Always,""
+608,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_500,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Worrying about what will happen to him or her,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",74,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2181,0,608,0.0,Never,""
+ ,2182,1,608,1.0,Almost Never,""
+ ,2183,2,608,2.0,Sometimes,""
+ ,2184,3,608,3.0,Often,""
+ ,2185,4,608,4.0,Almost Always,""
+609,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_501,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Getting along with other teens,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",75,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2186,0,609,0.0,Never,""
+ ,2187,1,609,1.0,Almost Never,""
+ ,2188,2,609,2.0,Sometimes,""
+ ,2189,3,609,3.0,Often,""
+ ,2190,4,609,4.0,Almost Always,""
+610,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_502,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Other teens not wanting to be his or her friend,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",75,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2191,0,610,0.0,Never,""
+ ,2192,1,610,1.0,Almost Never,""
+ ,2193,2,610,2.0,Sometimes,""
+ ,2194,3,610,3.0,Often,""
+ ,2195,4,610,4.0,Almost Always,""
+611,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_503,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Getting teased by other teens,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",75,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2196,0,611,0.0,Never,""
+ ,2197,1,611,1.0,Almost Never,""
+ ,2198,2,611,2.0,Sometimes,""
+ ,2199,3,611,3.0,Often,""
+ ,2200,4,611,4.0,Almost Always,""
+612,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_504,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Paying attention in class,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",76,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2201,0,612,0.0,Never,""
+ ,2202,1,612,1.0,Almost Never,""
+ ,2203,2,612,2.0,Sometimes,""
+ ,2204,3,612,3.0,Often,""
+ ,2205,4,612,4.0,Almost Always,""
+613,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_505,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Forgetting things,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",76,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2206,0,613,0.0,Never,""
+ ,2207,1,613,1.0,Almost Never,""
+ ,2208,2,613,2.0,Sometimes,""
+ ,2209,3,613,3.0,Often,""
+ ,2210,4,613,4.0,Almost Always,""
+614,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_506,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your teen had with …",Keeping up with schoolwork,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",76,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2211,0,614,0.0,Never,""
+ ,2212,1,614,1.0,Almost Never,""
+ ,2213,2,614,2.0,Sometimes,""
+ ,2214,3,614,3.0,Often,""
+ ,2215,4,614,4.0,Almost Always,""

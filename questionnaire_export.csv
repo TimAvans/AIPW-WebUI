@@ -1,0 +1,28 @@
+# Questionnaire Header
+id,gen-1746984809-0xUCsn5MzyJXONjJLUqT
+external_id,
+calculation_type,
+route_to_after_completion,
+title,
+subtitle,
+description,
+celebrate,
+celebrate_text,
+confetti,
+default_language,
+show_question,
+disable_progress_bar,
+instructions_header,
+instructions_back_button,
+instructions_next_button,
+survey_id,
+new,
+allow_instructions,
+supported_languages,[]
+questionnaire_instructions,[]
+calculated_variables,
+data_points,
+question_groups,
+
+# Questions
+id,external_id,type,minimum,maximum,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,title,subtitle,placeholder,orientation,data_label,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic

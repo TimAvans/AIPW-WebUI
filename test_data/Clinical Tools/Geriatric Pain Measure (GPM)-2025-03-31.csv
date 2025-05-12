@@ -1,0 +1,115 @@
+id,77
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,Geriatric Pain Measure (GPM)
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,GPM
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""GPM_Adjusted_Score"", ""([GPM_GPM_pain_vigorous_activity_score] + [GPM_GPM_pain_moderate_activity_score] + [GPM_GPM_pain_lifting_carrying_score] + [GPM_GPM_pain_climbing_stairs_score] + [GPM_GPM_pain_few_steps_score] + [GPM_GPM_pain_walking_block_score] + [GPM_GPM_pain_walking_less_than_block_score] + [GPM_GPM_pain_bathing_dressing_score] + [GPM_GPM_pain_affect_work_score] + [GPM_GPM_pain_accomplishing_less_score] + [GPM_GPM_pain_limiting_work_score] + [GPM_GPM_pain_extra_effort_score] + [GPM_GPM_pain_trouble_sleeping_score] + [GPM_GPM_pain_religious_score] + [GPM_GPM_pain_social_activities_score] + [GPM_GPM_pain_travelling_score] + [GPM_GPM_pain_fatigued_score] + [GPM_GPM_pain_reliance_score] + [GPM_GPM_pain_today_score] + [GPM_GPM_pain_last_week_score] + [GPM_GPM_constant_pain_score] + [GPM_GPM_daily_pain_score] + [GPM_GPM_pain_during_week_score] + [GPM_GPM_pain_sadness_score]) * 2.38"", ""GPM Adjusted Score"", 0.0, 100.0, """"], [[""Mild Pain"", ""#10B981"", ""<"", 30.0], [""Moderate Pain"", ""#F59E0B"", ""<"", 70.0], [""Severe Pain"", ""#EF4444"", "">"", 70.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+522,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_vigorous_activity,,false,"Do you or would you have <span style=""text-decoration:underline;"">pain</span> with vigorous activities such as running, lifting heavy objects or participating in strenuous sports?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1489,1,522,1.0,Yes,""
+ ,1490,2,522,0.0,No,""
+523,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_moderate_activity,,false,"Do you or would you have <span style=""text-decoration:underline;"">pain</span> with moderate activities such as moving a heavy table, pushing a vacuum cleaner, bowling or playing golf?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1491,1,523,1.0,Yes,""
+ ,1492,2,523,0.0,No,""
+524,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_lifting_carrying,,false,"Do you or would you have <span style=""text-decoration:underline;"">pain</span> with lifting or carrying groceries?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1493,1,524,1.0,Yes,""
+ ,1494,2,524,0.0,No,""
+525,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_climbing_stairs,,false,"Do you or would you have <span style=""text-decoration:underline;"">pain</span> with climbing more than one flight of stairs?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1495,1,525,1.0,Yes,""
+ ,1496,2,525,0.0,No,""
+526,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_few_steps,,false,"Do you or would you have <span style=""text-decoration:underline;"">pain</span> with climbing only a few steps?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1497,1,526,2.0,Yes,""
+ ,1498,2,526,0.0,No,""
+527,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_walking_block,,false,"Do you or would you have <span style=""text-decoration:underline;"">pain</span> walking more than one block?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1499,1,527,1.0,Yes,""
+ ,1500,2,527,0.0,No,""
+528,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_walking_less_than_block,,false,"Do you or would you have <span style=""text-decoration:underline;"">pain</span> walking one block or less?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1501,1,528,1.0,Yes,""
+ ,1502,2,528,0.0,No,""
+529,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_bathing_dressing,,false,"Do you have <span style=""text-decoration:underline;"">pain</span> with bathing or dressing?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1503,1,529,1.0,Yes,""
+ ,1504,2,529,0.0,No,""
+530,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_affect_work,,false,"Have you cut down the amount of time you spend on work or doing activities <span style=""text-decoration:underline;"">because of pain</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1505,1,530,1.0,Yes,""
+ ,1506,2,530,0.0,No,""
+531,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_accomplishing_less,,false,"Have you been accomplishing less than you would like <span style=""text-decoration:underline;"">because of pain</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1507,1,531,1.0,Yes,""
+ ,1508,2,531,0.0,No,""
+532,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_limiting_work,,false,"Have you limited the kind of work or other activities you do <span style=""text-decoration:underline;"">because of pain</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1509,1,532,1.0,Yes,""
+ ,1510,2,532,0.0,No,""
+533,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_extra_effort,,false,"Does the work or activities you do require extra effort <span style=""text-decoration:underline;"">because of pain</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1511,1,533,1.0,Yes,""
+ ,1512,2,533,0.0,No,""
+534,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_trouble_sleeping,,false,"Do you have trouble sleeping <span style=""text-decoration:underline;"">because of pain</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1513,1,534,1.0,Yes,""
+ ,1514,2,534,0.0,No,""
+535,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_religious,,false,"Does <span style=""text-decoration:underline;"">pain</span> prevent you from attending religious activities?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1515,1,535,1.0,Yes,""
+ ,1516,2,535,0.0,No,""
+536,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_social_activities,,false,"Does <span style=""text-decoration:underline;"">pain</span> prevent you from enjoying any other social or recreational activities (other than religious services)?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1517,1,536,1.0,Yes,""
+ ,1518,2,536,0.0,No,""
+537,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_travelling,,false,"Does or would <span style=""text-decoration:underline;"">pain</span> prevent you from traveling or using standard transportation?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1519,1,537,1.0,Yes,""
+ ,1520,2,537,0.0,No,""
+538,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_fatigued,,false,"Does <span style=""text-decoration:underline;"">pain</span> make you feel fatigued or tired?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1521,1,538,1.0,Yes,""
+ ,1522,2,538,0.0,No,""
+539,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_reliance,,false,"Do you have to rely on family members or friends for help <span style=""text-decoration:underline;"">because of pain</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1523,1,539,1.0,Yes,""
+ ,1524,2,539,0.0,No,""
+540,"",RangeSliderQuestion,0.0,10.0,,1.0,,,true,false,false,"","",,true,GPM_pain_today,,false,"On a scale of zero to ten, with zero meaning no pain, with ten being the worst pain you can imagine, <span style=""text-decoration:underline;"">how severe is your pain today</span>?","","",false,"",Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+541,"",RangeSliderQuestion,0.0,10.0,,1.0,,,true,false,false,"","",,true,GPM_pain_last_week,,false,"In the last seven days, on a scale of zero to ten, with zero meaning no pain, with ten being the worst pain you can imagine, <span style=""text-decoration:underline;"">how severe has your pain been on average</span>?","","",false,"",Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+542,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_constant_pain,,false,"Do you have pain that <span style=""text-decoration:underline;"">never completely goes away</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1525,1,542,1.0,Yes,""
+ ,1526,2,542,0.0,No,""
+543,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_daily_pain,,false,"Do you have <span style=""text-decoration:underline;"">pain every day</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1527,1,543,1.0,Yes,""
+ ,1528,2,543,0.0,No,""
+544,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_during_week,,false,"Do you have <span style=""text-decoration:underline;"">pain several times a week</span>?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1529,1,544,1.0,Yes,""
+ ,1530,2,544,0.0,No,""
+545,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,GPM_pain_sadness,,false,"Over the last seven days, has <span style=""text-decoration:underline;"">pain</span> caused you to feel sad or depressed?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1531,1,545,1.0,Yes,""
+ ,1532,2,545,0.0,No,""

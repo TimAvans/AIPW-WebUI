@@ -1,0 +1,251 @@
+id,66
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,36-Item Short Form Survey (SF-36)
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,SF36
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""SF36_Physical_Functioning_Score"", ""([SF36_SF_3_score] + [SF36_SF_4_score] + [SF36_SF_5_score] + [SF36_SF_6_score] + [SF36_SF_7_score] + [SF36_SF_8_score] + [SF36_SF_9_score] + [SF36_SF_10_score] + [SF36_SF_11_score] + [SF36_SF_12_score]) / 12"", ""SF36 Physical Functioning"", 0.0, """", """"], []], [[""SF36_Emotional_Wellbeing_Score"", ""([SF36_SF_24_score] + [SF36_SF_25_score] + [SF36_SF_26_score] + [SF36_SF_28_score] + [SF36_SF_30_score]) / 5"", ""SF36 Emotional Well-being"", 0.0, """", """"], []], [[""SF36_Social_Functioning_Score"", ""([SF36_SF_20_score] + [SF36_SF_32_score]) / 2"", ""SF36 Social Functioning"", 0.0, """", """"], []], [[""SF36_Pain_Score"", ""([SF36_SF_21_score] + [SF36_SF_22_score]) / 2"", ""SF36 Pain"", 0.0, """", """"], []], [[""SF36_Physical_Limitations_Score"", ""([SF36_SF_13_score] + [SF36_SF_14_score] + [SF36_SF_15_score] + [SF36_SF_16_score]) / 4"", ""SF36 Role Limitations due to Physical Health"", 0.0, """", """"], []], [[""SF36_Emotional_Problems_Score"", ""([SF36_SF_17_score] + [SF36_SF_18_score] + [SF36_SF_19_score]) / 3"", ""SF36 Role Limitations due to Emotional Problems"", 0.0, """", """"], []], [[""SF36_Energy_Fatigue_Score"", ""([SF36_SF_23_score] + [SF36_SF_27_score] + [SF36_SF_29_score] + [SF36_SF_31_score]) / 4"", ""SF36 Energy / Fatigue"", 0.0, """", """"], []], [[""SF36_General_Health_Score"", ""([SF36_SF36_general_health_score] + [SF36_SF_33_score] + [SF36_SF_34_score] + [SF36_SF_35_score] + [SF36_SF_36_score]) / 5"", ""SF36 General Health"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[21, 1, ""Does your health now limit you""], [22, 2, ""During the past 4 weeks""], [54, 3, ""During the past 4 weeks 2""], [55, 4, ""Page 1""], [56, 5, ""These questions are about how you feel""], [57, 6, ""True or False""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+688,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,SF36_general_health,,false,"In general, would you say your health is:",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",55,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1794,1,688,100.0,Excellent,""
+ ,1795,2,688,75.0,Very good,""
+ ,1796,3,688,50.0,Good,""
+ ,1797,4,688,25.0,Fair,""
+ ,1798,5,688,0.0,Poor,""
+689,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,SF36_health_comaprison,,false,"Compared to one year ago, how would you rate your health in general now?",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",55,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1799,1,689,100.0,Much better now than one year ago,""
+ ,1800,2,689,75.0,Somewhat better now than one year ago,""
+ ,1801,3,689,50.0,About the same,""
+ ,1802,4,689,25.0,Somewhat worse now than one year ago,""
+ ,1803,5,689,0.0,Much worse now than one year ago,""
+690,"",Instruction,,,,,,,true,false,false,,,"<p><strong>Does your health now limit you</strong> in these activities? If so, how much?</p>",false,SF36_info_1,,false,The following items are about activities you might do during a typical day.,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+206,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_vigorous_activities,,false,"<strong>Vigorous activities,</strong> such as running, lifting heavy objects, participating in strenuous sports","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,485,1,206,0.0,"Yes, limited a lot",""
+ ,486,2,206,50.0,"Yes, limited a little",""
+ ,487,3,206,100.0,"No, not limited at all",""
+207,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_moderate_activities,,false,"<strong>Moderate activities</strong>, such as moving a table, pushing a vacuum cleaner, bowling, or playing golf","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,488,1,207,0.0,"Yes, limited a lot",""
+ ,489,2,207,50.0,"Yes, limited a little",""
+ ,490,3,207,100.0,"No, not limited at all",""
+208,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_lifting_carrying,,false,Lifting or carrying groceries,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,491,1,208,0.0,"Yes, limited a lot",""
+ ,492,2,208,50.0,"Yes, limited a little",""
+ ,493,3,208,100.0,"No, not limited at all",""
+209,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_climbing_many_stairs,,false,Climbing <strong>several </strong>flights of stairs,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,496,3,209,100.0,"No, not limited at all",""
+ ,494,1,209,0.0,"Yes, limited a lot",""
+ ,495,2,209,50.0,"Yes, limited a little",""
+210,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_climbing_few_stairs,,false,Climbing <strong>one </strong>flight of stairs,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,497,1,210,0.0,"Yes, limited a lot",""
+ ,498,2,210,50.0,"Yes, limited a little",""
+ ,499,3,210,100.0,"No, not limited at all",""
+211,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_bending_kneeling,,false,"Bending, kneeling, or stooping","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,500,1,211,0.0,"Yes, limited a lot",""
+ ,501,2,211,50.0,"Yes, limited a little",""
+ ,502,3,211,100.0,"No, not limited at all",""
+212,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_walking_over_mile,,false,Walking <strong>more than a mile</strong>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,503,1,212,0.0,"Yes, limited a lot",""
+ ,504,2,212,50.0,"Yes, limited a little",""
+ ,505,3,212,100.0,"No, not limited at all",""
+213,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_walking_several_blocks,,false,Walking <strong>several blocks</strong>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,506,1,213,0.0,"Yes, limited a lot",""
+ ,507,2,213,50.0,"Yes, limited a little",""
+ ,508,3,213,100.0,"No, not limited at all",""
+214,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_walking_one_block,,false,Walking <strong>one block</strong>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,509,1,214,0.0,"Yes, limited a lot",""
+ ,510,2,214,50.0,"Yes, limited a little",""
+ ,511,3,214,100.0,"No, not limited at all",""
+215,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_bathing_dressing,,false,Bathing or dressing yourself,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",21,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,512,1,215,0.0,"Yes, limited a lot",""
+ ,513,2,215,50.0,"Yes, limited a little",""
+ ,514,3,215,100.0,"No, not limited at all",""
+216,"",Instruction,,,,,,,true,false,false,"","","<p>During <strong>the past 4 weeks</strong>, have you had any of the following problems with your work or other regular daily activities <strong>as a result of your physical health?</strong></p>",false,SF36_info_2,,false,"During<strong> the past 4 weeks</strong>, have you had any of the following problems with your work or other regular daily activities <strong>as a result of your physical health</strong>?","",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",22,false,false,"""[]"""
+217,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_reduced_activities,,false,Cut down the <strong>amount of time </strong>you spent on work or other activities?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",22,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,515,1,217,0.0,Yes,""
+ ,516,2,217,100.0,No,""
+478,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_reduced_accomplishments,,false,<strong>Accomplished</strong> less than you would like?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",22,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1217,1,478,0.0,Yes,""
+ ,1218,2,478,100.0,No,""
+479,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_limited_activities,,false,Were limited in the kind of work or other activities?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",22,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1219,1,479,0.0,Yes,""
+ ,1220,2,479,100.0,No,""
+480,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_difficult_activities,,false,"Had difficulty performing the work or other activities (for example, it took extra effort)?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",22,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1221,1,480,0.0,Yes,""
+ ,1222,2,480,100.0,No,""
+691,"",Instruction,,,,,,,true,false,false,"","","<p>During the past 4 weeks, have you had any of the following problems with your work or other regular daily activities as a result of any <strong>emotional problems</strong> (such as feeling depressed or anxious)? </p>",false,SF36_info_3,,false,"During the past 4 weeks, have you had any of the following problems with your work or other regular daily activities as a result of any <strong>emotional problems</strong> (such as feeling depressed or anxious)?","",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",54,false,false,"""[]"""
+692,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,SF36_reduced_activities_2,,false,Cut down the <strong>amount of time</strong> you spent on work or other activities,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",54,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1804,1,692,0.0,Yes,""
+ ,1805,2,692,100.0,No,""
+693,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,SF36_reduced_accomplishments_2,,false,<strong>Accomplished</strong> less than you would like?,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",54,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1806,1,693,0.0,Yes,""
+ ,1807,2,693,100.0,No,""
+694,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,SF36_careful_activities,,false,Didn't do work or other activities as <strong>carefully</strong> as usual,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",54,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1808,1,694,0.0,Yes,""
+ ,1809,2,694,100.0,No,""
+695,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_social_activities,,false,"During the <strong>past 4 weeks</strong>, to what extent has your physical health or emotional problems interfered with your normal social activities with family, friends, neighbours, or groups?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",54,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1810,1,695,100.0,Not at all,""
+ ,1811,2,695,75.0,Slightly,""
+ ,1812,3,695,50.0,Moderately,""
+ ,1813,4,695,25.0,Quite a bit,""
+ ,1814,5,695,0.0,Extremely,""
+696,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,SF36_bodily_pain,,false,How much <strong>bodily</strong> pain have you had during the<strong> past 4 weeks</strong>?,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",54,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1820,6,696,0.0,Very severe,""
+ ,1815,1,696,100.0,None,""
+ ,1816,2,696,80.0,Very mild,""
+ ,1817,3,696,60.0,Mild,""
+ ,1818,4,696,40.0,Moderate,""
+ ,1819,5,696,20.0,Severe,""
+697,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_pain_intereference,,false,"During the <strong>past 4 weeks</strong>, how much did <strong>pain</strong> interfere with your normal work (including both work outside the home and housework)?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",54,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1821,1,697,100.0,Not at all,""
+ ,1822,2,697,75.0,Slightly,""
+ ,1823,3,697,50.0,Moderately,""
+ ,1824,4,697,25.0,Quite a bit,""
+ ,1825,5,697,0.0,Extremely,""
+488,"",Instruction,,,,,,,true,false,false,"","","<p>These questions are about how you feel and how things have been with you during the past 4 weeks. For each question, please give the one answer that comes closest to the way you have been feeling. <br><br>How much of the time during the <strong>past 4 weeks... </strong></p>",false,SF36_info_4,,false,"<div>These questions are about how you feel and how things have been with you during the past 4 weeks. For each question, please give the one answer that comes closest to the way you have been feeling. </div><div> </div><div>How much of the time during the <strong>past 4 weeks</strong>... </div>","",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+489,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_full_of_pep,,false,Did you feel full of pep?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1245,1,489,100.0,All of the time,""
+ ,1246,2,489,80.0,Most of the time,""
+ ,1247,3,489,60.0,A good bit of the time,""
+ ,1248,4,489,40.0,Some of the time,""
+ ,1249,5,489,20.0,A little of the time,""
+ ,1250,6,489,0.0,None of the time,""
+490,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_feeling_nervous,,false,Have you been a very nervous person?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1251,1,490,100.0,All of the time,""
+ ,1252,2,490,80.0,Most of the time,""
+ ,1253,3,490,60.0,A good bit of the time,""
+ ,1254,4,490,40.0,Some of the time,""
+ ,1255,5,490,20.0,A little of the time,""
+ ,1256,6,490,0.0,None of the time,""
+491,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_feeling_down,,false,Have you felt so down in the dumps that nothing could cheer you up?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1257,1,491,100.0,All of the time,""
+ ,1258,2,491,80.0,Most of the time,""
+ ,1259,3,491,60.0,A good bit of the time,""
+ ,1260,4,491,40.0,Some of the time,""
+ ,1261,5,491,20.0,A little of the time,""
+ ,1262,6,491,0.0,None of the time,""
+492,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_feeling_calm,,false,Have you felt calm and peaceful?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1263,1,492,100.0,All of the time,""
+ ,1264,2,492,80.0,Most of the time,""
+ ,1265,3,492,60.0,A good bit of the time,""
+ ,1266,4,492,40.0,Some of the time,""
+ ,1267,5,492,20.0,A little of the time,""
+ ,1268,6,492,0.0,None of the time,""
+493,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_lots_of_energy,,false,Did you have a lot of energy?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1269,1,493,100.0,All of the time,""
+ ,1270,2,493,80.0,Most of the time,""
+ ,1271,3,493,60.0,A good bit of the time,""
+ ,1272,4,493,40.0,Some of the time,""
+ ,1273,5,493,20.0,A little of the time,""
+ ,1274,6,493,0.0,None of the time,""
+494,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_feeling_downhearted,,false,Have you felt downhearted and blue?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1275,1,494,100.0,All of the time,""
+ ,1276,2,494,80.0,Most of the time,""
+ ,1277,3,494,60.0,A good bit of the time,""
+ ,1278,4,494,40.0,Some of the time,""
+ ,1279,5,494,20.0,A little of the time,""
+ ,1280,6,494,0.0,None of the time,""
+495,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_feeling_worn_out,,false,Did you feel worn out?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1281,1,495,100.0,All of the time,""
+ ,1282,2,495,80.0,Most of the time,""
+ ,1283,3,495,60.0,A good bit of the time,""
+ ,1284,4,495,40.0,Some of the time,""
+ ,1285,5,495,20.0,A little of the time,""
+ ,1286,6,495,0.0,None of the time,""
+496,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_happy,,false,Have you been a happy person?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1287,1,496,100.0,All of the time,""
+ ,1288,2,496,80.0,Most of the time,""
+ ,1289,3,496,60.0,A good bit of the time,""
+ ,1290,4,496,40.0,Some of the time,""
+ ,1291,5,496,20.0,A little of the time,""
+ ,1292,6,496,0.0,None of the time,""
+497,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_feeling_tired,,false,Did you feel tired?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1293,1,497,100.0,All of the time,""
+ ,1294,2,497,80.0,Most of the time,""
+ ,1295,3,497,60.0,A good bit of the time,""
+ ,1296,4,497,40.0,Some of the time,""
+ ,1297,5,497,20.0,A little of the time,""
+ ,1298,6,497,0.0,None of the time,""
+498,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_physical_emotional_interference,,false,"During the <strong>past 4 weeks</strong>, how much of the time has <strong>your physical health or emotional problems</strong> interfered with your social activities (like visiting with friends, relatives, etc.)?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",56,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1299,1,498,0.0,All of the time,""
+ ,1300,2,498,25.0,Most of the time,""
+ ,1301,3,498,50.0,Some of the time,""
+ ,1302,4,498,75.0,A little of the time,""
+ ,1303,5,498,100.0,None of the time,""
+499,"",Instruction,,,,,,,true,false,false,"","",<p>How TRUE or FALSE is <strong>each</strong> of the following statements for you. </p>,false,SF36_info_5,,false,How TRUE or FALSE is <strong>each</strong> of the following statements for you.,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+500,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_get_sick_easy,,false,I seem to get sick a little easier than other people,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1304,1,500,0.0,Definitely true,""
+ ,1305,2,500,25.0,Mostly true,""
+ ,1306,3,500,50.0,Don't know,""
+ ,1307,4,500,75.0,Mostly false,""
+ ,1308,5,500,100.0,Definitely false,""
+501,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_healthy,,false,I am as healthy as anybody I know,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1309,1,501,0.0,Definitely true,""
+ ,1310,2,501,25.0,Mostly true,""
+ ,1311,3,501,50.0,Don't know,""
+ ,1312,4,501,75.0,Mostly false,""
+ ,1313,5,501,100.0,Definitely false,""
+502,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_health_on_decline,,false,I expect my health to get worse,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1314,1,502,0.0,Definitely true,""
+ ,1315,2,502,25.0,Mostly true,""
+ ,1316,3,502,50.0,Don't know,""
+ ,1317,4,502,75.0,Mostly false,""
+ ,1318,5,502,100.0,Definitely false,""
+503,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,SF36_excellent_health,,false,My health is excellent,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1319,1,503,0.0,Definitely true,""
+ ,1320,2,503,25.0,Mostly true,""
+ ,1321,3,503,50.0,Don't know,""
+ ,1322,4,503,75.0,Mostly false,""
+ ,1323,5,503,100.0,Definitely false,""

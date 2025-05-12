@@ -1,0 +1,40 @@
+id,1001
+external_id,SF-36-2025-03-31
+calculation_type,mean
+route_to_after_completion,/completion/screen
+title,SF-36 Health Survey
+subtitle,36-Item Short Form Health Survey
+description,Please complete the following survey focusing on your recent health status.
+celebrate,True
+celebrate_text,Thank you for completing the SF-36 Health Survey. Your responses are important to us!
+confetti,True
+default_language,English
+show_question,True
+disable_progress_bar,False
+instructions_header,Instructions
+instructions_back_button,Back
+instructions_next_button,Next
+survey_id,SF36_2025
+new,True
+allow_instructions,True
+supported_languages,"[""English""]"
+questionnaire_instructions,"[""Answer each question based on your health status over the past 4 weeks."", ""Do not skip questions unless instructed.""]"
+calculated_variables,"{""physical_functioning_score"": [], ""emotional_wellbeing_score"": []}"
+data_points,"{""participant"":[], ""survey"":[]}"
+question_groups,"[[1, 1, ""General Health""], [2, 2, ""Limitations of Activities""], [3, 3, ""Physical Health Problems""], [4, 4, ""Emotional Health Problems""], [5, 5, ""Social Activities""], [6, 6, ""Pain""], [7, 7, ""Energy and Emotions""]]"
+
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+101,,SingleChoiceQuestion,0,0,,,0,0,True,False,True,,,Rate your general health.,True,general_health,,,"In general, would you say your health is:",,,,,,vertical,general_health,,,,,,,,,,,,1,False,False,
+,id,index,question_id,score,text,external_id
+,201,1,101,5,Excellent,
+,202,2,101,4,Very Good,
+,203,3,101,3,Good,
+,204,4,101,2,Fair,
+,205,5,101,1,Poor,
+102,,SingleChoiceQuestion,0,0,,,0,0,True,False,True,,,Rate your health compared to a year ago.,True,health_comparison,,,"Compared to one year ago, how would you rate your health in general now?",,,,,,vertical,health_comparison,,,,,,,,,,,,1,False,False,
+,id,index,question_id,score,text,external_id
+,206,1,102,5,Much better now than one year ago,
+,207,2,102,4,Somewhat better now than one year ago,
+,208,3,102,3,About the same,
+,209,4,102,2,Somewhat worse now than one year ago,
+,210,5,102,1,Much worse than one year ago,

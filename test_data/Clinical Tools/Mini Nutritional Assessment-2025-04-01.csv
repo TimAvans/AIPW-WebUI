@@ -1,0 +1,74 @@
+id,68
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,Mini Nutritional Assessment
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,Complete the screener by selecting the appropriate option.
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,MNA
+new,true
+allow_instructions,true
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""Totalscore"", ""[MNA_food_intake_decline_3months_score] + [MNA_weight_loss_past_3_months_score] + [MNA_mobility_score] + [MNA_psychological_stress_or_acute_disease_3months_score] + [MNA_Neuropsychological_problems_score] + [MNA_BMI_status_score] + [MNA_BMI_score] + [MNA_CC_score]"", ""MNA"", 0.0, """", """"], [[""Malnourished"", ""#EF4444"", ""<="", 7.0], [""At risk of malnutrition"", ""#F59E0B"", "">="", 8.0], [""Normal nutritional status"", ""#10B981"", "">="", 12.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[115, 1, ""1""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+837,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,food_intake_decline_3months,,false,"Has food intake declined over the past 3 months due to loss of appetite, digestive problems, chewing or swallowing difficulties?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3089,1,837,0.0,Severe decrease in food intake,""
+ ,3090,2,837,1.0,Moderate decrease in food intake,""
+ ,3091,3,837,2.0,No decrease in food intake,""
+838,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,weight_loss_past_3_months,,false,Weight loss during the last 3 months:,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3092,1,838,0.0,Weight loss greater than 3 kg (6.6 lbs),""
+ ,3093,2,838,1.0,Does not know,""
+ ,3094,3,838,2.0,Weight loss between 1 and 3 kg (2.2 and 6.6 lbs),""
+ ,3095,4,838,3.0,No weight loss,""
+839,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,mobility,,false,Mobility,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3096,1,839,0.0,Bed or chair bound,""
+ ,3097,2,839,1.0,Able to get out of bed / chair but does not go out,""
+ ,3098,3,839,2.0,Goes out,""
+840,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,psychological_stress_or_acute_disease_3months,,false,Has suffered psychological stress or acute disease in the past 3 months?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3099,1,840,0.0,Yes,""
+ ,3100,2,840,1.0,No,""
+841,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,Neuropsychological_problems,,false,Neuropsychological problems,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3101,1,841,0.0,Severe dementia or depression,""
+ ,3102,2,841,1.0,Mild dementia,""
+ ,3103,3,841,2.0,No psychological problems,""
+842,"",SingleChoiceQuestion,,,,,,,true,false,false,,,,true,BMI_status,,false,Do you know your Body Mass Index (BMI)?,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3104,1,842,0.0,Yes,""
+ ,3105,2,842,0.0,No,""
+843,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,BMI,,false,Body Mass Index (BMI) (weight in kg) / (height in m2),"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[MNA_BMI_status] = [option_3104],115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3106,1,843,0.0,BMI less than 19,""
+ ,3107,2,843,1.0,BMI 19 to less than 21,""
+ ,3108,3,843,2.0,BMI 21 to less than 23,""
+ ,3109,4,843,3.0,BMI 23 or greater,""
+844,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CC,,false,Calf circumference (CC) in cm,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[MNA_BMI_status] = [option_3105],115,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,3110,1,844,0.0,CC less than 31,""
+ ,3111,2,844,3.0,CC 31 or greater,""
+845,"",Instruction,,,,,,,true,false,false,"","","<p> </p>
+<p><em>Ref. Vellas B, Villars H, Abellan G, et al. Overview of the MNA® - Its History and Challenges. J Nutr Health Aging 2006;10:456-465.</em></p>
+<div><em>Rubenstein LZ, Harker JO, Salva A, Guigoz Y, Vellas B. Screening for Undernutrition in Geriatric Practice: Developing the Short-Form Mini</em></div>
+<div><em>Nutritional Assessment (MNA-SF). J. Geront 2001;56A: M366-377.</em></div>
+<div><em>Guigoz Y. The Mini-Nutritional Assessment (MNA®) Review of the Literature - What does it tell us? J Nutr Health Aging 2006; 10:466-487.</em></div>
+<div><em>Kaiser MJ, Bauer JM, Ramsch C, et al. Validation of the Mini Nutritional Assessment Short-Form (MNA®-SF): A practical tool for identification</em></div>
+<div><em>of nutritional status. J Nutr Health Aging 2009; 13:782-788.</em></div>
+<div><em>® Société des Produits Nestlé, S.A., Vevey, Switzerland, Trademark Owners</em></div>
+<div><em>© Nestlé, 1994, Revision 2009. N67200 12/99 10M</em></div>
+<div><em>For more information: <a href=""http://www.mna-elderly.com"">www.mna-elderly.com</a></em></div>",false,question_845,,false,"","",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",115,false,false,"""[]"""

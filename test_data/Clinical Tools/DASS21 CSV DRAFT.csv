@@ -1,0 +1,157 @@
+id,32
+external_id,""
+calculation_type,summation
+route_to_after_completion,""
+title,DASS 21 Questionairre
+subtitle,""
+description,"The Depression Anxiety Stress Scales - 21
+Mental Health Questionnaire"
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,DASS21
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""Anxiety-DASS21"", ""[DASS21_aware_of_mouth_dryness_score] + [DASS21_breathing_difficulty_score] + [DASS21_experienced_trembling_score] + [DASS21_worried_about_panic_score] + [DASS21_close_to_panic_score] + [DASS21_heart_awareness_score] + [DASS21_felt_scared_without_reason_score]"", ""Anxiety-DASS21"", 0.0, """", """"], [[""High"", ""#EF4444"", "">="", 4.0], [""Low"", ""#10B981"", ""<"", 4.0]]], [[""Stress-DASS21"", ""[DASS21_found_it_hard_to_wind_down_score] + [DASS21_tended_to_overreact_score] + [DASS21_using_nervous_energy_score] +  [DASS21_getting_agitated_score] + [DASS21_difficult_to_relax_score] + [DASS21_intolerant_of_disruptions_score] + [DASS21_felt_touchy_score]"", ""Stress-DASS21"", 0.0, """", """"], [[""High"", ""#EF4444"", "">="", 8.0], [""Low"", ""#10B981"", ""<"", 8.0]]], [[""Depression-DASS21"", ""[DASS21_unable_to_experience_positive_feeling_score] + [DASS21_lack_of_initiative_score] + [DASS21_nothing_to_look_forward_to_score] + [DASS21_felt_downhearted_score] + [DASS21_unable_to_become_enthusiastic_score] + [DASS21_low_self_worth_score] + [DASS21_felt_life_meaningless_score]"", ""Depression-DASS21"", 0.0, """", """"], [[""High"", ""#EF4444"", "">="", 5.0], [""Low"", ""#10B981"", ""<"", 5.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[29, 1, ""1""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+382,"",Instruction,,,,,,,false,false,false,"","<p>The Depression Anxiety Stress Scales-21 (DASS-21) is the short form of the DASS-42, a self-report scale designed to measure the negative emotional states of depression, anxiety, and stress in adults. The three scales of the DASS have been shown to have high internal consistency and yield meaningful discriminations, and therefore should meet the needs of both researchers and clinicians who wish to measure current state or change in state over time (e.g., during treatment).</p>
+<p>This scale is suitable for clinical and non-clinical settings. Please read each statement and choose a number 0, 1, 2 or 3 that indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.</p>
+<p>Reference: Lovibond SH, Lovibond PF (1995) Manual for the Depression Anxiety Stress Scale. Sydney: Psychology Foundation.</p>","<p>The Depression, Stress, Anxiety Scales (DASS-21) is a mental health questionnaire for people aged 18 years and above. </p>
+<p>Please read each statement and select the statement applied to you which represents how much it applied to you <span style=""text-decoration:underline;"">over the past week</span>.</p>
+<p>There are no right or wrong answers.</p>",false,question_509,,false,<p>About the Depression Anxiety and Stress Questionnaire</p>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,[]
+383,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,found_it_hard_to_wind_down,,false,I found it hard to wind down,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1182,0,383,0.0,Never,""
+ ,1183,1,383,1.0,Sometimes,""
+ ,1184,2,383,2.0,Often,""
+ ,1185,3,383,3.0,Almost Always,""
+384,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,aware_of_mouth_dryness,,false,I was aware of the dryness of my mouth,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1186,0,384,0.0,Never,""
+ ,1187,1,384,1.0,Sometimes,""
+ ,1188,2,384,2.0,Often,""
+ ,1189,3,384,3.0,Almost Always,""
+385,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,unable_to_experience_positive_feeling,,false,I couldn’t seem to experience any positive feeling at all,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1190,0,385,0.0,Never,""
+ ,1191,1,385,1.0,Sometimes,""
+ ,1192,2,385,2.0,Often,""
+ ,1193,3,385,3.0,Almost Always,""
+386,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,breathing_difficulty,,false,"I experienced breathing difficulty (eg, excessively rapid breathing, breathlessness in the absence of physical exertion)",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1194,0,386,0.0,Never,
+ ,1195,1,386,1.0,Sometimes,
+ ,1196,2,386,2.0,Often,
+ ,1197,3,386,3.0,Almost Always,
+387,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,lack_of_initiative,,false,I found it difficult to work up the initiative to do things,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1198,0,387,0.0,Never,
+ ,1199,1,387,1.0,Sometimes,
+ ,1200,2,387,2.0,Often,
+ ,1201,3,387,3.0,Almost Always,
+388,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,tended_to_overreact,,false,I tended to over-react to situations,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1202,0,388,0.0,Never,
+ ,1203,1,388,1.0,Sometimes,
+ ,1204,2,388,2.0,Often,
+ ,1205,3,388,3.0,Almost Always,
+389,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,experienced_trembling,,false,"I experienced trembling (eg, in the hands)",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1206,0,389,0.0,Never,
+ ,1207,1,389,1.0,Sometimes,
+ ,1208,2,389,2.0,Often,
+ ,1209,3,389,3.0,Almost Always,
+390,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,using_nervous_energy,,false,<p>I felt that I was using a lot of nervous energy</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1210,0,390,0.0,Never,
+ ,1211,1,390,1.0,Sometimes,
+ ,1212,2,390,2.0,Often,
+ ,1213,3,390,3.0,Almost Always,
+391,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,worried_about_panic,,false,<p>I was worried about situations in which I might panic and make a fool of myself</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1214,0,391,0.0,Never,
+ ,1215,1,391,1.0,Sometimes,
+ ,1216,2,391,2.0,Often,
+ ,1217,3,391,3.0,Almost Always,
+392,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,nothing_to_look_forward_to,,false,<p>I felt that I had nothing to look forward to</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1218,0,392,0.0,Never,
+ ,1219,1,392,1.0,Sometimes,
+ ,1220,2,392,2.0,Often,
+ ,1221,3,392,3.0,Almost Always,
+393,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,getting_agitated,,false,<p>I found myself getting agitated</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1222,0,393,0.0,Never,
+ ,1223,1,393,1.0,Sometimes,
+ ,1224,2,393,2.0,Often,
+ ,1225,3,393,3.0,Almost Always,
+394,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,difficult_to_relax,,false,<p>I found it difficult to relax</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1226,0,394,0.0,Never,
+ ,1227,1,394,1.0,Sometimes,
+ ,1228,2,394,2.0,Often,
+ ,1229,3,394,3.0,Almost Always,
+395,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,felt_downhearted,,false,<p>I felt down-hearted and blue</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1230,0,395,0.0,Never,
+ ,1231,1,395,1.0,Sometimes,
+ ,1232,2,395,2.0,Often,
+ ,1233,3,395,3.0,Almost Always,
+396,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,intolerant_of_disruptions,,false,<p>I was intolerant of anything that kept me from getting on with what I was doing</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1234,0,396,0.0,Never,
+ ,1235,1,396,1.0,Sometimes,
+ ,1236,2,396,2.0,Often,
+ ,1237,3,396,3.0,Almost Always,
+397,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,close_to_panic,,false,<p>I felt I was close to panic</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1238,0,397,0.0,Never,
+ ,1239,1,397,1.0,Sometimes,
+ ,1240,2,397,2.0,Often,
+ ,1241,3,397,3.0,Almost Always,
+398,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,unable_to_become_enthusiastic,,false,<p>I was unable to become enthusiastic about anything</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1242,0,398,0.0,Never,
+ ,1243,1,398,1.0,Sometimes,
+ ,1244,2,398,2.0,Often,
+ ,1245,3,398,3.0,Almost Always,
+399,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,low_self_worth,,false,<p>I felt I wasn’t worth much as a person</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1246,0,399,0.0,Never,
+ ,1247,1,399,1.0,Sometimes,
+ ,1248,2,399,2.0,Often,
+ ,1249,3,399,3.0,Almost Always,
+400,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,felt_touchy,,false,<p>I felt that I was rather touchy</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1250,0,400,0.0,Never,
+ ,1251,1,400,1.0,Sometimes,
+ ,1252,2,400,2.0,Often,
+ ,1253,3,400,3.0,Almost Always,
+401,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,heart_awareness,,false,"<p>I was aware of the action of my heart in the absence of physical exertion (eg, sense of heart rate increase, heart missing a beat)</p>",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1254,0,401,0.0,Never,
+ ,1255,1,401,1.0,Sometimes,
+ ,1256,2,401,2.0,Often,
+ ,1257,3,401,3.0,Almost Always,
+402,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,felt_scared_without_reason,,false,<p>I felt scared without any good reason</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1258,0,402,0.0,Never,
+ ,1259,1,402,1.0,Sometimes,
+ ,1260,2,402,2.0,Often,
+ ,1261,3,402,3.0,Almost Always,
+403,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,felt_life_meaningless,,false,<p>I felt that life was meaningless</p>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1262,0,403,0.0,Never,
+ ,1263,1,403,1.0,Sometimes,
+ ,1264,2,403,2.0,Often,
+ ,1265,3,403,3.0,Almost Always,

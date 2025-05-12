@@ -1,0 +1,123 @@
+id,64
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,Berg Balance Scale
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,BBS
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""Score"", ""[BBS_sit_to_stand_score] + [BBS_stand_unsupported_score] + [BBS_sit_with_back_score] + [BBS_stand_to_sit_score] + [BBS_transfers_score] + [BBS_stand_unsupported_eyes_closed_score] + [BBS_stand_unsupported_feet_together_score] + [BBS_reaching_forward_score] + [BBS_pick_object_score] + [BBS_turning_to_look_score] + [BBS_turn_360_score] + [BBS_alternate_foot_score] + [BBS_unsupported_one_foot_score] + [BBS_stand_one_leg_score]"", ""BBS Score"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+752,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,sit_to_stand,,false,SITTING TO STANDING,INSTRUCTIONS: Please stand up. Try not to use your hand for support.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2756,0,752,4.0,able to stand without using hands and stabilize independently,""
+ ,2757,1,752,3.0,able to stand independently using hands,""
+ ,2758,2,752,2.0,able to stand using hands after several tries,""
+ ,2759,3,752,1.0,needs minimal aid to stand or stabilize,""
+ ,2760,4,752,0.0,needs moderate or maximal assist to stand,""
+753,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,stand_unsupported,,false,STANDING UNSUPPORTED,INSTRUCTIONS: Please stand for two minutes without holding on.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2761,0,753,4.0,able to stand safely for 2 minutes,""
+ ,2762,1,753,3.0,able to stand 2 minutes with supervision,""
+ ,2763,2,753,2.0,able to stand 30 seconds unsupported,""
+ ,2764,3,753,1.0,needs several tries to stand 30 seconds unsupported,""
+ ,2765,4,753,0.0,unable to stand 30 seconds unsupported,""
+754,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,sit_with_back,,false,SITTING WITH BACK UNSUPPORTED BUT FEET SUPPORTED ON FLOOR OR ON A STOOL,INSTRUCTIONS: Please sit with arms folded for 2 minutes.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[BBS_stand_unsupported]!=[option_2761],,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2766,0,754,4.0,able to sit safely and securely for 2 minutes,""
+ ,2767,1,754,3.0,able to sit 2 minutes under supervision,""
+ ,2768,2,754,2.0,able to able to sit 30 seconds,""
+ ,2769,3,754,1.0,able to sit 10 seconds,""
+ ,2770,4,754,0.0,unable to sit without support 10 seconds,""
+755,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,stand_to_sit,,false,STANDING TO SITTING,INSTRUCTIONS: Please sit down.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2771,0,755,4.0,sits safely with minimal use of hands,""
+ ,2772,1,755,3.0,controls descent by using hands,""
+ ,2773,2,755,2.0,uses back of legs against chair to control descent,""
+ ,2774,3,755,1.0,sits independently but has uncontrolled descent,""
+ ,2775,4,755,0.0,needs assist to sit,""
+756,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,transfers,,false,TRANSFERS,INSTRUCTIONS: Arrange chair(s) for pivot transfer. Ask subject to transfer one way toward a seat with armrests and one way toward a seat without armrests. You may use two chairs (one with and one without armrests) or a bed and a chair.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2776,0,756,4.0,able to transfer safely with minor use of hands,""
+ ,2777,1,756,3.0,able to transfer safely definite need of hands,""
+ ,2778,2,756,2.0,able to transfer with verbal cuing and/or supervision,""
+ ,2779,3,756,1.0,needs one person to assist,""
+ ,2780,4,756,0.0,needs two people to assist or supervise to be safe,""
+757,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,stand_unsupported_eyes_closed,,false,STANDING UNSUPPORTED WITH EYES CLOSED,INSTRUCTIONS: Please close your eyes and stand still for 10 seconds.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2781,0,757,4.0,able to stand 10 seconds safely,""
+ ,2782,1,757,3.0,able to stand 10 seconds with supervision,""
+ ,2783,2,757,2.0,able to stand 3 seconds,""
+ ,2784,3,757,1.0,unable to keep eyes closed 3 seconds but stays safely,""
+ ,2785,4,757,0.0,needs help to keep from falling,""
+758,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,stand_unsupported_feet_together,,false,STANDING UNSUPPORTED WITH FEET TOGETHER,INSTRUCTIONS: Place your feet together and stand without holding on.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2786,0,758,4.0,able to place feet together independently and stand 1 minute safely,""
+ ,2787,1,758,3.0,able to place feet together independently and stand 1 minute with supervision,""
+ ,2788,2,758,2.0,able to place feet together independently but unable to hold for 30 seconds,""
+ ,2789,3,758,1.0,needs help to attain position but able to stand 15 seconds feet together,""
+ ,2790,4,758,0.0,needs help to attain position and unable to hold for 15 seconds,""
+759,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,reaching_forward,,false,REACHING FORWARD WITH OUTSTRETCHED ARM WHILE STANDING,"INSTRUCTIONS: Lift arm to 90 degrees. Stretch out your fingers and reach forward as far as you can. (Examiner places a ruler at the end of fingertips when arm is at 90 degrees. Fingers should not touch the ruler while reaching forward. The recorded measure is the distance forward that the fingers reach while the subject is in the most forward lean position. When possible, ask subject to use both arms when reaching to avoid rotation of the trunk.)",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2791,0,759,4.0,can reach forward confidently 25 cm (10 inches),""
+ ,2792,1,759,3.0,can reach forward 12 cm (5 inches),""
+ ,2793,2,759,2.0,can reach forward 5 cm (2 inches),""
+ ,2794,3,759,1.0,reaches forward but needs supervision,""
+ ,2795,4,759,0.0,loses balance while trying/requires external support,""
+760,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,pick_object,,false,PICK UP OBJECT FROM THE FLOOR FROM A STANDING POSITION,"INSTRUCTIONS: Pick up the shoe/slipper, which is place in front of your feet.",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2796,0,760,4.0,able to pick up slipper safely and easily,""
+ ,2797,1,760,3.0,able to pick up slipper but needs supervision,""
+ ,2798,2,760,2.0,unable to pick up but reaches 2-5 cm(1-2 inches) from slipper and keeps balance independently,""
+ ,2799,3,760,1.0,unable to pick up and needs supervision while trying,""
+ ,2800,4,760,0.0,unable to try/needs assist to keep from losing balance or falling,""
+761,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,turning_to_look,,false,TURNING TO LOOK BEHIND OVER LEFT AND RIGHT SHOULDERS WHILE STANDING,INSTRUCTIONS: Turn to look directly behind you over toward the left shoulder. Repeat to the right. Examiner may pick an object to look at directly behind the subject to encourage a better twist turn.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2801,0,761,4.0,looks behind from both sides and weight shifts well,""
+ ,2802,1,761,3.0,looks behind one side only other side shows less weight shift,""
+ ,2803,2,761,2.0,turns sideways only but maintains balance,""
+ ,2804,3,761,1.0,needs supervision when turning,""
+ ,2805,4,761,0.0,needs assist to keep from losing balance or falling,""
+762,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,turn_360,,false,TURN 360 DEGREES,INSTRUCTIONS: Turn completely around in a full circle. Pause. Then turn a full circle in the other direction.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2806,0,762,4.0,able to turn 360 degrees safely in 4 seconds or less,""
+ ,2807,1,762,3.0,able to turn 360 degrees safely one side only 4 seconds or less,""
+ ,2808,2,762,2.0,able to turn 360 degrees safely but slowly,""
+ ,2809,3,762,1.0,needs close supervision or verbal cuing,""
+ ,2810,4,762,0.0,needs assistance while turning,""
+763,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,alternate_foot,,false,PLACE ALTERNATE FOOT ON STEP OR STOOL WHILE STANDING UNSUPPORTED,INSTRUCTIONS: Place each foot alternately on the step/stool. Continue until each foot has touch the step/stool four times.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2811,0,763,4.0,able to stand independently and safely and complete 8 steps in 20 seconds,""
+ ,2812,1,763,3.0,able to stand independently and complete 8 steps in > 20 seconds,""
+ ,2813,2,763,2.0,able to complete 4 steps without aid with supervision,""
+ ,2814,3,763,1.0,able to complete > 2 steps needs minimal assist,""
+ ,2815,4,763,0.0,needs assistance to keep from falling/unable to try,""
+764,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,unsupported_one_foot,,false,STANDING UNSUPPORTED ONE FOOT IN FRONT,"INSTRUCTIONS: (DEMONSTRATE TO SUBJECT) Place one foot directly in front of the other. If you feel that you cannot place your foot directly in front, try to step far enough ahead that the heel of your forward foot is ahead of the toes of the other foot. (To score 3 points, the length of the step should exceed the length of the other foot and the width of the stance should approximate the subject’s normal stride width.)",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2816,0,764,4.0,able to place foot tandem independently and hold 30 seconds,""
+ ,2817,1,764,3.0,able to place foot ahead independently and hold 30 seconds,""
+ ,2818,2,764,2.0,able to take small step independently and hold 30 seconds,""
+ ,2819,3,764,1.0,needs help to step but can hold 15 seconds,""
+ ,2820,4,764,0.0,loses balance while stepping or standing,""
+765,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,stand_one_leg,,false,STANDING ON ONE LEG,INSTRUCTIONS: Stand on one leg as long as you can without holding on.,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2821,0,765,4.0,able to lift leg independently and hold > 10 seconds,""
+ ,2822,1,765,3.0,able to lift leg independently and hold 5-10 seconds,""
+ ,2823,2,765,2.0,able to lift leg independently and hold ≥ 3 seconds,""
+ ,2824,3,765,1.0,tries to lift leg unable to hold 3 seconds but remains standing independently.,""
+ ,2825,4,765,0.0,unable to try of needs assist to prevent fall,""

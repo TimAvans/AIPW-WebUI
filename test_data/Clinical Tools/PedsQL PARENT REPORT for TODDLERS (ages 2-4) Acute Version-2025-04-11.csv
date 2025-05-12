@@ -1,0 +1,147 @@
+id,59
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,PedsQL PARENT REPORT for TODDLERS (ages 2-4) Acute Version
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,"<div>On the following page is a list of things that might be a problem for <strong>your child</strong>. Please tell us how much of a problem each one has been for <strong>your child</strong> during the <strong>past 7 days</strong> by circling:</div>
+<div><strong>0</strong> if it is <strong>never</strong> a problem</div>
+<div><strong>1</strong> if it is <strong>almost never</strong> a problem</div>
+<div><strong>2</strong> if it is <strong>sometimes</strong> a problem</div>
+<div><strong>3</strong> if it is <strong>often</strong> a problem</div>
+<div><strong>4</strong> if it is <strong>almost always</strong> a problem</div>
+<div>There are no right or wrong answers.</div>
+<div>If you do not understand a question, please ask for help.</div>"
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,questionnaire_59
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,[]
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[81, 1, ""PHYSICAL FUNCTIONING (problems with…)""], [84, 2, ""EMOTIONAL FUNCTIONING (problems with…)""], [87, 3, ""SOCIAL FUNCTIONING (problems with…)""], [90, 4, ""SCHOOL FUNCTIONING (problems with…)""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+750,"",Instruction,,,,,,,true,false,false,"PedsQL 4.0 - Parent(2-4)     Copyright © 1998 JW Varni, Ph.D. All rights reserved",,"<div>On the following page is a list of things that might be a problem for <strong>your child</strong>. Please tell us <strong>how much of a problem</strong> each one has been for <strong>your child</strong> during the <strong>past 7 days</strong> by selecting:</div>
+<div> </div>
+<div><strong>0</strong> if it is <strong>never</strong> a problem</div>
+<div><strong>1</strong> if it is <strong>almost never</strong> a problem</div>
+<div><strong>2</strong> if it is <strong>sometimes</strong> a problem</div>
+<div><strong>3</strong> if it is <strong>often</strong> a problem</div>
+<div><strong>4</strong> if it is <strong>almost always</strong> a problem</div>
+<div> </div>
+<div>There are no right or wrong answers.</div>
+<div>If you do not understand a question, please ask for help.</div>",false,question_750,,false,<strong>DIRECTIONS</strong>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+631,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_492,,false,"In the past <strong>7 days</strong><strong>,</strong> how much of a <strong>problem</strong> has your child had with …",Walking,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",81,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2291,0,631,0.0,Never,""
+ ,2295,1,631,1.0,Almost Never,""
+ ,2298,2,631,2.0,Sometimes,""
+ ,2301,3,631,3.0,Often,""
+ ,2304,4,631,4.0,Almost Always,""
+635,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_493,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Running,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",81,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2308,0,635,0.0,Never,""
+ ,2311,1,635,1.0,Almost Never,""
+ ,2314,2,635,2.0,Sometimes,""
+ ,2317,3,635,3.0,Often,""
+ ,2320,4,635,4.0,Almost Always,""
+638,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_494,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Participating in active play or exercise,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",81,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2323,0,638,0.0,Never,""
+ ,2326,1,638,1.0,Almost Never,""
+ ,2329,2,638,2.0,Sometimes,""
+ ,2332,3,638,3.0,Often,""
+ ,2335,4,638,4.0,Almost Always,""
+641,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_495,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Lifting something heavy,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",81,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2338,0,641,0.0,Never,""
+ ,2341,1,641,1.0,Almost Never,""
+ ,2344,2,641,2.0,Sometimes,""
+ ,2347,3,641,3.0,Often,""
+ ,2350,4,641,4.0,Almost Always,""
+644,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_496,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Helping to pick up his or her toys,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",81,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2353,0,644,0.0,Never,""
+ ,2356,1,644,1.0,Almost Never,""
+ ,2359,2,644,2.0,Sometimes,""
+ ,2362,3,644,3.0,Often,""
+ ,2365,4,644,4.0,Almost Always,""
+647,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_497,,false,"In the past <strong>7 days</strong>, how much of a problem has your child had with …",Feeling afraid or scared,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",84,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2368,0,647,0.0,Never,""
+ ,2371,1,647,1.0,Almost Never,""
+ ,2374,2,647,2.0,Sometimes,""
+ ,2377,3,647,3.0,Often,""
+ ,2380,4,647,4.0,Almost Always,""
+650,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_498,,false,"In the past <strong>7 days</strong>, how much of a problem has your child had with …",Feeling sad or blue,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",84,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2383,0,650,0.0,Never,""
+ ,2386,1,650,1.0,Almost Never,""
+ ,2389,2,650,2.0,Sometimes,""
+ ,2392,3,650,3.0,Often,""
+ ,2395,4,650,4.0,Almost Always,""
+652,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_499,,false,"In the past <strong>7 days</strong>, how much of a problem has your child had with …",Feeling angry,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",84,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2397,0,652,0.0,Never,""
+ ,2400,1,652,1.0,Almost Never,""
+ ,2403,2,652,2.0,Sometimes,""
+ ,2406,3,652,3.0,Often,""
+ ,2409,4,652,4.0,Almost Always,""
+656,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_500,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Worrying,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",84,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2413,0,656,0.0,Never,""
+ ,2416,1,656,1.0,Almost Never,""
+ ,2419,2,656,2.0,Sometimes,""
+ ,2422,3,656,3.0,Often,""
+ ,2425,4,656,4.0,Almost Always,""
+659,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_501,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Playing with other children,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",87,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2428,0,659,0.0,Never,""
+ ,2431,1,659,1.0,Almost Never,""
+ ,2434,2,659,2.0,Sometimes,""
+ ,2437,3,659,3.0,Often,""
+ ,2440,4,659,4.0,Almost Always,""
+662,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_502,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Other kids not wanting to play with him or her,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",87,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2442,0,662,0.0,Never,""
+ ,2445,1,662,1.0,Almost Never,""
+ ,2448,2,662,2.0,Sometimes,""
+ ,2451,3,662,3.0,Often,""
+ ,2454,4,662,4.0,Almost Always,""
+664,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_503,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Getting teased by other children,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",87,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2457,0,664,0.0,Never,""
+ ,2460,1,664,1.0,Almost Never,""
+ ,2463,2,664,2.0,Sometimes,""
+ ,2466,3,664,3.0,Often,""
+ ,2469,4,664,4.0,Almost Always,""
+667,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_504,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Doing the same school activities as peers,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",90,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2472,0,667,0.0,Never,""
+ ,2475,1,667,1.0,Almost Never,""
+ ,2478,2,667,2.0,Sometimes,""
+ ,2481,3,667,3.0,Often,""
+ ,2484,4,667,4.0,Almost Always,""
+670,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_505,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Missing school/daycare because of not feeling well,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",90,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2486,0,670,0.0,Never,""
+ ,2488,1,670,1.0,Almost Never,""
+ ,2491,2,670,2.0,Sometimes,""
+ ,2494,3,670,3.0,Often,""
+ ,2497,4,670,4.0,Almost Always,""
+672,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_506,,false,"In the past <strong>7 days</strong>, how much of a <strong>problem</strong> has your child had with …",Missing school/daycare to go to the doctor or hospital,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",90,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2501,0,672,0.0,Never,""
+ ,2502,1,672,1.0,Almost Never,""
+ ,2506,2,672,2.0,Sometimes,""
+ ,2509,3,672,3.0,Often,""
+ ,2512,4,672,4.0,Almost Always,""

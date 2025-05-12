@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 import base64
 from pathlib import Path
+from models.json_schema import json_output
 
 class OpenRouterService():
 
@@ -33,6 +34,59 @@ class OpenRouterService():
     def encode_pdf_to_base64(self, pdf_path):
         with open(pdf_path, "rb") as pdf_file:
             return base64.b64encode(pdf_file.read()).decode('utf-8')
+
+    
+    def pdf_extraction_request_structured_output(self, message, pdf_path, model="openai/gpt-4o"):
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
+        }
+
+        content_blocks = [{
+            "type": "text",
+            "text": message
+        }]
+
+        print(f"Processing pdf {pdf_path}")
+        base64_pdf = self.encode_pdf_to_base64(pdf_path)
+        data_url = f"data:application/pdf;base64,{base64_pdf}"
+        filename = Path(pdf_path).name
+        
+        print(f"Data url: {data_url}")
+
+        content_blocks.append({
+            "type": "file",
+            "file": {
+                "filename": filename,
+                "file_data": data_url
+            }
+        })
+        
+        messages = [
+            {
+                "role": "user",
+                "content": content_blocks
+            }
+        ]
+       
+        plugins = [
+            {
+                "id": "file-parser",
+                "pdf": {
+                    "engine": "pdf-text"  # defaults to "mistral-ocr"
+                }
+            }
+        ]
+        payload = {
+            "model": model,
+            "messages": messages,
+            "plugins": plugins,
+            "response_format": json_output
+        }
+
+        response = requests.post(self.url, headers=headers, json=payload)
+        print(response.json())
+        return response.json()
 
     def pdf_extraction_request(self, message, pdf_path, model="openai/gpt-4o"):
         headers = {

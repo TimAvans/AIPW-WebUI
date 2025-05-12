@@ -1,0 +1,85 @@
+id,21
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,PHQ-9
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,PHQ9
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""total"", ""[PHQ9_little_interest_score] + [PHQ9_hopeless_score] + [PHQ9_sleep_score] + [PHQ9_tired_score] + [PHQ9_appetite_score] + [PHQ9_feeling_bad_score] + [PHQ9_concentration_score] + [PHQ9_speed_score] + [PHQ9_dead_score]"", ""PHQ-9 Total"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+215,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,little_interest,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>",Little interest or pleasure in doing things,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,910,1,215,0.0,<strong>Not at all</strong>,""
+ ,911,2,215,1.0,<strong>Several days</strong>,""
+ ,912,3,215,2.0,<strong>More than half the days</strong>,""
+ ,913,4,215,3.0,<strong>Nearly every day</strong>,""
+216,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,hopeless,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>","Feeling down, depressed, or hopeless",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,914,1,216,0.0,<strong>Not at all</strong>,""
+ ,915,2,216,1.0,<strong>Several days</strong>,""
+ ,916,3,216,2.0,<strong>More than half the days</strong>,""
+ ,917,4,216,3.0,<strong>Nearly every day</strong>,""
+218,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,sleep,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>","Trouble falling or staying asleep, or sleeping too much",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,922,1,218,0.0,<strong>Not at all</strong>,""
+ ,923,2,218,1.0,<strong>Several days</strong>,""
+ ,924,3,218,2.0,<strong>More than half the days</strong>,""
+ ,925,4,218,3.0,<strong>Nearly every day</strong>,""
+219,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,tired,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>",Feeling tired or having little energy,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,926,1,219,0.0,<strong>Not at all</strong>,""
+ ,927,2,219,1.0,<strong>Several days</strong>,""
+ ,928,3,219,2.0,<strong>More than half the days</strong>,""
+ ,929,4,219,3.0,<strong>Nearly every day</strong>,""
+220,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,appetite,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>",Poor appetite or overeating,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,930,1,220,0.0,<strong>Not at all</strong>,""
+ ,931,2,220,1.0,<strong>Several days</strong>,""
+ ,932,3,220,2.0,<strong>More than half the days</strong>,""
+ ,933,4,220,3.0,<strong>Nearly every day</strong>,""
+221,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,feeling_bad,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>",Feeling bad about yourself or that you are a failure or have let yourself or your family down,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,934,1,221,0.0,<strong>Not at all</strong>,""
+ ,935,2,221,1.0,<strong>Several days</strong>,""
+ ,936,3,221,2.0,<strong>More than half the days</strong>,""
+ ,937,4,221,3.0,<strong>Nearly every day</strong>,""
+222,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,concentration,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>","Trouble concentrating on things, such as reading the newspaper or watching television",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,938,1,222,0.0,<strong>Not at all</strong>,""
+ ,939,2,222,1.0,<strong>Several days</strong>,""
+ ,940,3,222,2.0,<strong>More than half the days</strong>,""
+ ,941,4,222,3.0,<strong>Nearly every day</strong>,""
+223,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,speed,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>",Moving or speaking so slowly that other people could have noticed. Or the opposite being so figety or restless that you have been moving around a lot more than usual,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,942,1,223,0.0,<strong>Not at all</strong>,""
+ ,943,2,223,1.0,<strong>Several days</strong>,""
+ ,944,3,223,2.0,<strong>More than half the days</strong>,""
+ ,945,4,223,3.0,<strong>Nearly every day</strong>,""
+224,"",SingleChoiceQuestion,,,,,,,true,false,true,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,dead,,false,"Over the <span style=""text-decoration:underline;"">last 2 weeks</span>, how often have you been bothered by any of the following problems?<br><em>(Use "" </em><span style=""color:#202122;font-family:sans-serif;font-size:20px;background-color:#ffffff;"">◉</span><em>"" to indicate your answer)</em>","Thoughts that you would be better off dead, or of hurting yourself",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,946,1,224,0.0,<strong>Not at all</strong>,""
+ ,947,2,224,1.0,<strong>Several days</strong>,""
+ ,948,3,224,2.0,<strong>More than half the days</strong>,""
+ ,949,4,224,3.0,<strong>Nearly every day</strong>,""
+229,"",SingleChoiceQuestion,,,,,,,true,false,false,"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.","",,true,difficult,,false,"If you checked off <span style=""text-decoration:underline;"">any</span> problems, how <span style=""text-decoration:underline;"">difficult</span> have these problems made it for you to do your work, take care of things at home, or get along with other people?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[PHQ9_little_interest] != [option_910] OR [PHQ9_hopeless] != [option_914] OR [PHQ9_sleep] != [option_922] OR [PHQ9_tired] != [option_926] OR [PHQ9_appetite] != [option_930] OR [PHQ9_feeling_bad] != [option_934] OR [PHQ9_concentration] != [option_938] OR [PHQ9_speed] != [option_942] OR [PHQ9_dead] != [option_946],,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,969,4,229,0.0,<strong>Extremely difficult</strong>,""
+ ,966,1,229,0.0,<strong>Not difficult at all </strong>,""
+ ,967,2,229,0.0,<strong>Somewhat difficult</strong>,""
+ ,968,3,229,0.0,<strong>Very difficult</strong>,""

@@ -1,0 +1,69 @@
+id,145
+external_id,""
+calculation_type,summation
+route_to_after_completion,""
+title,MEDAS
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,MEDAS
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""total"", ""[MEDAS_fat_source_score] + [MEDAS_tablespoons_score] + [MEDAS_vegetables_score] + [MEDAS_whole_fruit_score] + [MEDAS_red_meat_score] + [MEDAS_butter_score] + [MEDAS_beverages_score] + [MEDAS_wine_score] + [MEDAS_legumes_score] + [MEDAS_seafood_score] + [MEDAS_nuts_score] + [MEDAS_chicken_score] + [MEDAS_olive_oil_dishes_score] + [MEDAS_baked_goods_score]"", ""MEDAS Total"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+3052,"",SingleChoiceQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>",,,true,fat_source,,false,Do you use olive oil as the main source of fat for cooking?,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,6129,1,3052,1.0,Yes,""
+ ,6130,2,3052,0.0,No,""
+3053,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,tablespoons,,false,"<div>How many tablespoons of olive oil do you use each day?</div><div><em>Include olive oil used in salads, meals eaten away from home, frying etc</em></div>","",,false,,# tablespoons per day,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3053,1.0,4.0
+3054,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>",,,true,vegetables,,false,<div>How many servings of vegetables do you eat per day?</div><div><em>One serving is ½ cup raw or cooked vegetables or 1 cup of raw salad greens</em></div>,,,false,,# servings per day,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3054,1.0,2.0
+3055,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,whole_fruit,,false,<div>How many servings of whole fruit do you eat per day?</div><div><em>One serving is ½ cup or a medium sized piece of whole fruit</em></div>,"",,false,,# serving per day,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3055,1.0,3.0
+3056,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,red_meat,,false,"<div>How many servings of red meat, hamburger or sausages do you eat per week?</div><div><em>One serving is 3 ½ -5 ½ ounces (100-150 grams)</em></div>","",,false,,# servings per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,LowerOrEqualThan,3056,1.0,1.0
+3057,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,butter,,false,"<div>How many servings of butter, margarine or cream do you consume per day?</div><div><em>One serving is 1 Tablespoon. This does not include soft non-hydrogenated </em><em>margarines</em></div>","",,false,,# servings per day,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,LowerOrEqualThan,3057,1.0,1.0
+3058,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,beverages,,false,"<div>How many sugar sweetened beverages do you drink per week?</div><div><em>One serving is 355ml or one can of pop or 12 ounces.</em></div><div><em>This includes any drinks with added sugars such as regular pop, fruit drinks, </em><em>sports drinks, energy drinks, iced tea</em></div>","",,false,,# servings per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,LowerOrEqualThan,3058,1.0,1.0
+3059,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,wine,,false,<div>Do you drink wine? How much do you drink per week?<br><em>1 glass = 150ml or 5 oz</em></div>,"",,false,,# servings per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3059,1.0,7.0
+3060,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,legumes,,false,"<div>How many servings of legumes like kidney beans, chick peas, lentils, black beans, split peas do you eat per week?</div><div><em>One serving is 5 ounces or 150 grams or ½ - 2/3 cup</em></div>","",,false,,# servings per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3060,1.0,3.0
+3061,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>",,,true,seafood,,false,<div>How many servings of fish or seafood do you eat per week?</div><div><em>One serving of fish is 3 ½ -5 ½ ounces or 100-150 grams</em></div><div><em>One serving of seafood is 4-5 pieces or 7 ounces or 200 grams</em></div>,,,false,,# servings per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3061,1.0,3.0
+3062,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>","",,true,baked_goods,,false,"<div>How many times do you eat baked goods such as pie, cookies, cake or doughnuts per week?</div>","",,false,,# times per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,LowerOrEqualThan,3062,1.0,4.0
+3063,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>",,,true,nuts,,false,<div>How many times do you eat nuts per week?</div><div><em>1 serving is 30 grams or 1 ounce</em></div>,,,false,,# times per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3063,1.0,3.0
+3064,"",SingleChoiceQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>",,,true,chicken,,false,"<div>Do you eat chicken or turkey more often than beef, pork, hamburger or sausage?</div>",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,6131,1,3064,1.0,Yes,""
+ ,6132,2,3064,0.0,No,""
+3065,"",NumberQuestion,,,,,,,true,false,true,"<div><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">Adapted from: </span><span style=""font-size:9pt;font-family:'Calibri';color:#0000ff;"">www.predimed.es</span><span style=""font-size:9pt;font-family:'Calibri';color:#000000;"">, Int J Epidemiol. 2012 Apr; 41(2):377-385, J Nutr. 2011 Jun; 141(6):1140-1145 (Nov 2017)</span></div>",,,true,olive_oil_dishes,,false,"<div>How many times per week do you eat dishes with a sauce of tomato, garlic, onion/leeks sautéed in olive oil?</div>",,,false,,# times per week,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,HigherOrEqualThan,3065,1.0,2.0

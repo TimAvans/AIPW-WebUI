@@ -1,0 +1,139 @@
+id,49
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,PedsQL CHILD REPORT (ages 8-12)
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,form_49
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,[]
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[49, 1, ""ABOUT MY HEALTH AND ACTIVITIES (problems with…)""], [50, 2, ""ABOUT MY FEELINGS (problems with…)""], [51, 3, ""HOW I GET ALONG WITH OTHERS (problems with…)""], [52, 4, ""ABOUT SCHOOL (problems with…)""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+739,"",Instruction,,,,,,,true,false,false,"PedsQL 4.0 - (8-12)     Copyright © 1998 JW Varni, Ph.D. All rights reserved","","<div>On the following page is a list of things that might be a problem for you. Please tell us how <strong>much of a problem</strong> each one has been for you during the <strong>past ONE month</strong> by selecting:</div>
+<div> </div>
+<div><strong>0</strong> if it is <strong>never</strong> a problem</div>
+<div><strong>1</strong> if it is <strong>almost never</strong> a problem</div>
+<div><strong>2</strong> if it is <strong>sometimes</strong> a problem</div>
+<div><strong>3</strong> if it is <strong>often</strong> a problem</div>
+<div><strong>4</strong> if it is <strong>almost always</strong> a problem</div>
+<div><br>There are no right or wrong answers.</div>
+<div>If you do not understand a question, please ask for help</div>",false,question_739,,false,<strong>DIRECTIONS</strong>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+510,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_509,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",It is hard for me to walk more than one block,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",49,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1691,0,510,0.0,Never,""
+ ,1692,1,510,1.0,Almost Never,""
+ ,1693,2,510,2.0,Sometimes,""
+ ,1694,3,510,3.0,Often,""
+ ,1695,4,510,4.0,Almost Always,""
+511,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_511,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",It is hard for me to run,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",49,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1696,0,511,0.0,Never,""
+ ,1697,1,511,1.0,Almost Never,""
+ ,1698,2,511,2.0,Sometimes,""
+ ,1699,3,511,3.0,Often,""
+ ,1700,4,511,4.0,Almost Always,""
+512,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_512,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",It is hard for me to do sports activity or exercise,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",49,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1701,0,512,0.0,Never,""
+ ,1702,1,512,1.0,Almost Never,""
+ ,1703,2,512,2.0,Sometimes,""
+ ,1704,3,512,3.0,Often,""
+ ,1705,4,512,4.0,Almost Always,""
+513,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_513,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",It is hard for me to lift something heavy,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",49,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1706,0,513,0.0,Never,""
+ ,1707,1,513,1.0,Almost Never,""
+ ,1708,2,513,2.0,Sometimes,""
+ ,1709,3,513,3.0,Often,""
+ ,1710,4,513,4.0,Almost Always,""
+514,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_514,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",It is hard for me to do chores around the house ,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",49,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1711,0,514,0.0,Never,""
+ ,1712,1,514,1.0,Almost Never,""
+ ,1713,2,514,2.0,Sometimes,""
+ ,1714,3,514,3.0,Often,""
+ ,1715,4,514,4.0,Almost Always,""
+515,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_515,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",I feel afraid or scared,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",50,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1716,0,515,0.0,Never,""
+ ,1717,1,515,1.0,Almost Never,""
+ ,1718,2,515,2.0,Sometimes,""
+ ,1719,3,515,3.0,Often,""
+ ,1720,4,515,4.0,Almost Always,""
+516,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_516,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",I feel sad or blue,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",50,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1721,0,516,0.0,Never,""
+ ,1722,1,516,1.0,Almost Never,""
+ ,1723,2,516,2.0,Sometimes,""
+ ,1724,3,516,3.0,Often,""
+ ,1725,4,516,4.0,Almost Always,""
+517,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_517,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",I feel angry,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",50,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1726,0,517,0.0,Never,""
+ ,1727,1,517,1.0,Almost Never,""
+ ,1728,2,517,2.0,Sometimes,""
+ ,1729,3,517,3.0,Often,""
+ ,1730,4,517,4.0,Almost Always,""
+518,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_518,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",I worry about what will happen to me,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",50,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1731,0,518,0.0,Never,""
+ ,1732,1,518,1.0,Almost Never,""
+ ,1733,2,518,2.0,Sometimes,""
+ ,1734,3,518,3.0,Often,""
+ ,1735,4,518,4.0,Almost Always,""
+519,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_519,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",I have trouble getting along with other kids,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",51,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1736,0,519,0.0,Never,""
+ ,1737,1,519,1.0,Almost Never,""
+ ,1738,2,519,2.0,Sometimes,""
+ ,1739,3,519,3.0,Often,""
+ ,1740,4,519,4.0,Almost Always,""
+520,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_520,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",Other kids do not want to be my friend ,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",51,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1741,0,520,0.0,Never,""
+ ,1742,1,520,1.0,Almost Never,""
+ ,1743,2,520,2.0,Sometimes,""
+ ,1744,3,520,3.0,Often,""
+ ,1745,4,520,4.0,Almost Always,""
+521,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_521,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",Other kids tease me ,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",51,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1746,0,521,0.0,Never,""
+ ,1747,1,521,1.0,Almost Never,""
+ ,1748,2,521,2.0,Sometimes,""
+ ,1749,3,521,3.0,Often,""
+ ,1750,4,521,4.0,Almost Always,""
+522,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_522,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",It is hard to pay attention in class,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",52,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1751,0,522,0.0,Never,""
+ ,1752,1,522,1.0,Almost Never,""
+ ,1753,2,522,2.0,Sometimes,""
+ ,1754,3,522,3.0,Often,""
+ ,1755,4,522,4.0,Almost Always,""
+523,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_523,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",I forget things,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",52,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1756,0,523,0.0,Never,""
+ ,1757,1,523,1.0,Almost Never,""
+ ,1758,2,523,2.0,Sometimes,""
+ ,1759,3,523,3.0,Often,""
+ ,1760,4,523,4.0,Almost Always,""
+524,"",SingleChoiceQuestion,,,,,,,true,false,true,,,,true,question_524,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has this been for you …",I have trouble keeping up with my schoolwork ,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",52,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1761,0,524,0.0,Never,""
+ ,1762,1,524,1.0,Almost Never,""
+ ,1763,2,524,2.0,Sometimes,""
+ ,1764,3,524,3.0,Often,""
+ ,1765,4,524,4.0,Almost Always,""

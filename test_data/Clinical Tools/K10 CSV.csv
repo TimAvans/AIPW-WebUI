@@ -1,0 +1,95 @@
+id,283
+external_id,""
+calculation_type,summation
+route_to_after_completion,""
+title,Kessler Psychological Distress Scale (K10) 
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,This questionnaire will approximately take 5-10 minutes to complete.
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,K10
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""total"", ""[K10_tired_score] + [K10_nervous_score] + [K10_no_calm_score] + [K10_hopeless_score] + [K10_restless_score] + [K10_not_still_score] + [K10_depressed_score] + [K10_everything_effort_score] + [K10_sad_score] + [K10_worthless_score]"", ""K10 Total"", 0.0, """", """"], [[""Likely to be well"", ""#10B981"", ""<"", 20.0], [""Likely to have a mild disorder"", ""#F59E0B"", ""<"", 25.0], [""Likely to have a moderate disorder"", ""#F59E0B"", ""<"", 30.0], [""Likely to have a severe disorder"", ""#EF4444"", "">="", 30.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+1241,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,tired,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel tired out for no good reason?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2427,1,1241,1.0,None of the time,""
+ ,2428,2,1241,2.0,A little of the time,""
+ ,2429,3,1241,3.0,Some of the time,""
+ ,2430,4,1241,4.0,Most of the time,""
+ ,2431,5,1241,5.0,All of the time,""
+1242,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,nervous,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel nervous?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2432,1,1242,1.0,None of the time,""
+ ,2433,2,1242,2.0,A little of the time,""
+ ,2434,3,1242,3.0,Some of the time,""
+ ,2435,4,1242,4.0,Most of the time,""
+ ,2436,5,1242,5.0,All of the time,""
+1243,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,no_calm,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel so nervous that nothing could calm you down?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2437,1,1243,1.0,None of the time,""
+ ,2438,2,1243,2.0,A little of the time,""
+ ,2439,3,1243,3.0,Some of the time,""
+ ,2440,4,1243,4.0,Most of the time,""
+ ,2441,5,1243,5.0,All of the time,""
+1244,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,hopeless,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel hopeless?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2442,1,1244,1.0,None of the time,""
+ ,2443,2,1244,2.0,A little of the time,""
+ ,2444,3,1244,3.0,Some of the time,""
+ ,2445,4,1244,4.0,Most of the time,""
+ ,2446,5,1244,5.0,All of the time,""
+1245,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,restless,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel restless or fidgety?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2447,1,1245,1.0,None of the time,""
+ ,2448,2,1245,2.0,A little of the time,""
+ ,2449,3,1245,3.0,Some of the time,""
+ ,2450,4,1245,4.0,Most of the time,""
+ ,2451,5,1245,5.0,All of the time,""
+1246,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,not_still,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel so restless you could not sit still?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2452,1,1246,1.0,None of the time,""
+ ,2453,2,1246,2.0,A little of the time,""
+ ,2454,3,1246,3.0,Some of the time,""
+ ,2455,4,1246,4.0,Most of the time,""
+ ,2456,5,1246,5.0,All of the time,""
+1247,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,depressed,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel depressed?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2457,1,1247,1.0,None of the time,""
+ ,2458,2,1247,2.0,A little of the time,""
+ ,2459,3,1247,3.0,Some of the time,""
+ ,2460,4,1247,4.0,Most of the time,""
+ ,2461,5,1247,5.0,All of the time,""
+1248,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,everything_effort,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel that everything was an effort?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2464,3,1248,3.0,Some of the time,""
+ ,2465,4,1248,4.0,Most of the time,""
+ ,2466,5,1248,5.0,All of the time,""
+ ,2462,1,1248,1.0,None of the time,""
+ ,2463,2,1248,2.0,A little of the time,""
+1249,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,sad,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel so sad that nothing could cheer you up?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2467,1,1249,1.0,None of the time,""
+ ,2468,2,1249,2.0,A little of the time,""
+ ,2469,3,1249,3.0,Some of the time,""
+ ,2470,4,1249,4.0,Most of the time,""
+ ,2471,5,1249,5.0,All of the time,""
+1250,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,worthless,,false,Please select the answer that is correct for you: ,"In the past 4 weeks, about how often did you feel worthless?",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2472,1,1250,1.0,None of the time,""
+ ,2473,2,1250,2.0,A little of the time,""
+ ,2474,3,1250,3.0,Some of the time,""
+ ,2475,4,1250,4.0,Most of the time,""
+ ,2476,5,1250,5.0,All of the time,""

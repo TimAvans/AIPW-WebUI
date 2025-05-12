@@ -1,0 +1,115 @@
+id,68
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,Exercise Self-Efficacy Scale (ESE)  
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,"<p>A number of situations are described in the following survey that can make it hard to continue an exercise routine.<br><br>Please rate your degree of confidence by recording a number from 0, meaning not confident at all, to 100, meaning very confident.</p>"
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,ESE
+new,true
+allow_instructions,true
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""Total"", ""(([ESE_ESE_1_score] + [ESE_ESE_2_score] + [ESE_ESE_3_score] + [ESE_ESE_4_score] + [ESE_ESE_5_score] + [ESE_ESE_6_score] + [ESE_ESE_7_score] + [ESE_ESE_8_score] + [ESE_ESE_9_score] + [ESE_ESE_10_score] + [ESE_ESE_11_score] + [ESE_ESE_12_score] + [ESE_ESE_13_score] + [ESE_ESE_14_score] + [ESE_ESE_15_score] + [ESE_ESE_16_score] + [ESE_ESE_17_score] + [ESE_ESE_18_score]) / 18) * 10"", ""ESE Total"", 0.0, 1000.0, """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[28, 1, ""How certain are you that you can continue using StandingTall for a total of 2 sessions/time per week…""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+504,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_1,,false,When I am feeling tired,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+505,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_2,,false,When I am feeling under pressure from things I need to get done,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+506,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_3,,false,During bad weather,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+507,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_4,,false,After recovering from an injury that caused me to stop exercising,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+508,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_5,,false,During or after experiencing personal problems,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+509,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_6,,false,When I am feeling depressed,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+510,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_7,,false,When I am feeling anxious,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+511,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_8,,false,After recovering from an illness that caused me to stop exercising,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+512,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_9,,false,When I feel physical discomfort when I exercise,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+513,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_10,,false,After a vacation or trip away from home,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+514,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_11,,false,When I have too much work to do at home e.g. housework,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+515,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_12,,false,When visitors are present,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+516,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_13,,false,When there are no other interesting things to do,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+517,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_14,,false,If I don't reach my exercise goals e.g. I am not seeing improvements in my balance,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+518,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_15,,false,Without support from my family or friends,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+519,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_16,,false,During a vacation or trip away from home,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+520,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_17,,false,When I have other time commitments,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+521,"",RangeSliderQuestion,0.0,100.0,,1.0,,,true,false,false,"","<p>The rating scale is as follows:</p>
+<ul>
+<li>Not confident at all -<strong> 0</strong></li>
+<li>Very confident - <strong>100</strong></li>
+</ul>",,true,ESE_18,,false,After experiencing family problems,"",Cannot do at all,false,Highly certain can do,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""

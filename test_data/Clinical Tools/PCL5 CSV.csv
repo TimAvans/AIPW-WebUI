@@ -1,0 +1,165 @@
+id,281
+external_id,""
+calculation_type,summation
+route_to_after_completion,""
+title,PCL-5
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,This questionnaire will approximately take 5-10 minutes to complete.
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,PCL5
+new,false
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""hyper_arousal"", ""[PCL5_angry_score] + [PCL5_risk_harm_score] + [PCL5_superalert_score] + [PCL5_startled_score] + [PCL5_concentrating_score] + [PCL5_asleep_score]"", ""PCL5 Hyper-Arousal"", 0.0, """", """"], []], [[""total"", ""[PCL5_unw_mem_score] + [PCL5_dist_dreams_score] + [PCL5_relive_score] + [PCL5_upset_score] + [PCL5_strng_phy_react_score] + [PCL5_avd_mem_score] + [PCL5_extrnl_rem_score] + [PCL5_trbl_rem_score] + [PCL5_strng_neg_belif_score] + [PCL5_blame_score] + [PCL5_strng_neg_feel_score] + [PCL5_lost_intrst_score] + [PCL5_distant_score] + [PCL5_trbl_pstv_feel_score] + [PCL5_angry_score] + [PCL5_risk_harm_score] + [PCL5_superalert_score] + [PCL5_startled_score] + [PCL5_concentrating_score] + [PCL5_asleep_score]"", ""PCL5 Total"", 0.0, """", """"], [[""Below Cut-off"", ""#EF4444"", ""<"", 33.0], [""Above Cut-off"", ""#10B981"", "">="", 33.0]]], [[""re_experiencing"", ""[PCL5_unw_mem_score] + [PCL5_dist_dreams_score] + [PCL5_relive_score] + [PCL5_upset_score] + [PCL5_strng_phy_react_score]"", ""PCL5 Re-Experiencing"", 0.0, """", """"], []], [[""avoidance"", ""[PCL5_avd_mem_score] + [PCL5_extrnl_rem_score]"", ""PCL5 Avoidance"", 0.0, """", """"], []], [[""negative_alterations"", ""[PCL5_trbl_rem_score] + [PCL5_strng_neg_belif_score] + [PCL5_blame_score] + [PCL5_strng_neg_feel_score] + [PCL5_lost_intrst_score] + [PCL5_distant_score] + [PCL5_trbl_pstv_feel_score]"", ""PCL5 Negative Alterations"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+1212,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,unw_mem,,false,"In the past month, how much were you bothered by:","Repeated, disturbing, and unwanted memories of the stressful experience?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2313,1,1212,0.0,Not at all,""
+ ,2314,2,1212,1.0,A little bit,""
+ ,2315,3,1212,2.0,Moderately,""
+ ,2316,4,1212,3.0,Quite a bit,""
+ ,2317,5,1212,4.0,Extremely,""
+1213,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,dist_dreams,,false,"In the past month, how much were you bothered by:","Repeated, disturbing dreams of the stressful experience?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2318,2,1213,1.0,A little bit,""
+ ,2319,3,1213,2.0,Moderately,""
+ ,2320,4,1213,3.0,Quite a bit,""
+ ,2321,5,1213,4.0,Extremely,""
+ ,2322,1,1213,0.0,Not at all,""
+1214,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,relive,,false,"In the past month, how much were you bothered by:",Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2323,2,1214,1.0,A little bit,""
+ ,2324,3,1214,2.0,Moderately,""
+ ,2325,4,1214,3.0,Quite a bit,""
+ ,2326,5,1214,4.0,Extremely,""
+ ,2327,1,1214,0.0,Not at all,""
+1215,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,upset,,false,"In the past month, how much were you bothered by:",Feeling very upset when something reminded you of the stressful experience?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2328,2,1215,1.0,A little bit,""
+ ,2329,3,1215,2.0,Moderately,""
+ ,2330,4,1215,3.0,Quite a bit,""
+ ,2331,5,1215,4.0,Extremely,""
+ ,2332,1,1215,0.0,Not at all,""
+1216,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,strng_phy_react,,false,"In the past month, how much were you bothered by:","Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2333,2,1216,1.0,A little bit,""
+ ,2334,3,1216,2.0,Moderately,""
+ ,2335,4,1216,3.0,Quite a bit,""
+ ,2336,5,1216,4.0,Extremely,""
+ ,2337,1,1216,0.0,Not at all,""
+1217,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,avd_mem,,false,"In the past month, how much were you bothered by:","Avoiding memories, thoughts, or feelings related to the stressful experience?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2338,2,1217,1.0,A little bit,""
+ ,2339,3,1217,2.0,Moderately,""
+ ,2340,4,1217,3.0,Quite a bit,""
+ ,2341,1,1217,0.0,Not at all,""
+ ,2342,5,1217,4.0,Extremely,""
+1218,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,extrnl_rem,,false,"In the past month, how much were you bothered by:","Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2343,2,1218,1.0,A little bit,""
+ ,2344,1,1218,0.0,Not at all,""
+ ,2345,3,1218,2.0,Moderately,""
+ ,2346,4,1218,3.0,Quite a bit,""
+ ,2347,5,1218,4.0,Extremely,""
+1219,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,trbl_rem,,false,"In the past month, how much were you bothered by:",Trouble remembering important parts of the stressful experience?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2348,1,1219,0.0,Not at all,""
+ ,2349,2,1219,1.0,A little bit,""
+ ,2350,3,1219,2.0,Moderately,""
+ ,2351,4,1219,3.0,Quite a bit,""
+ ,2352,5,1219,4.0,Extremely,""
+1220,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,strng_neg_belif,,false,"In the past month, how much were you bothered by:","Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as: I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2353,2,1220,1.0,A little bit,""
+ ,2354,3,1220,2.0,Moderately,""
+ ,2355,4,1220,3.0,Quite a bit,""
+ ,2356,5,1220,4.0,Extremely,""
+ ,2357,1,1220,0.0,Not at all,""
+1221,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,blame,,false,"In the past month, how much were you bothered by:",Blaming yourself or someone else for the stressful experience or what happened after it?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2358,2,1221,1.0,A little bit,""
+ ,2359,3,1221,2.0,Moderately,""
+ ,2360,4,1221,3.0,Quite a bit,""
+ ,2361,5,1221,4.0,Extremely,""
+ ,2362,1,1221,0.0,Not at all,""
+1222,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,strng_neg_feel,,false,"In the past month, how much were you bothered by:","Having strong negative feelings such as fear, horror, anger, guilt, or shame?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2365,4,1222,3.0,Quite a bit,""
+ ,2366,5,1222,4.0,Extremely,""
+ ,2367,1,1222,0.0,Not at all,""
+ ,2363,2,1222,1.0,A little bit,""
+ ,2364,3,1222,2.0,Moderately,""
+1223,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,lost_intrst,,false,"In the past month, how much were you bothered by:",Loss of interest in activities that you used to enjoy?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2368,2,1223,1.0,A little bit,""
+ ,2369,3,1223,2.0,Moderately,""
+ ,2370,4,1223,3.0,Quite a bit,""
+ ,2371,5,1223,4.0,Extremely,""
+ ,2372,1,1223,0.0,Not at all,""
+1224,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,distant,,false,"In the past month, how much were you bothered by:",Feeling distant or cut off from other people?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2373,2,1224,1.0,A little bit,""
+ ,2374,3,1224,2.0,Moderately,""
+ ,2375,4,1224,3.0,Quite a bit,""
+ ,2376,5,1224,4.0,Extremely,""
+ ,2377,1,1224,0.0,Not at all,""
+1225,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,trbl_pstv_feel,,false,"In the past month, how much were you bothered by:","Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2378,2,1225,1.0,A little bit,""
+ ,2379,3,1225,2.0,Moderately,""
+ ,2380,4,1225,3.0,Quite a bit,""
+ ,2381,5,1225,4.0,Extremely,""
+ ,2382,1,1225,0.0,Not at all,""
+1226,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,angry,,false,"In the past month, how much were you bothered by:","Irritable behavior, angry outbursts, or acting aggressively?",,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2383,2,1226,1.0,A little bit,""
+ ,2384,3,1226,2.0,Moderately,""
+ ,2385,4,1226,3.0,Quite a bit,""
+ ,2386,5,1226,4.0,Extremely,""
+ ,2387,1,1226,0.0,Not at all,""
+1227,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,risk_harm,,false,"In the past month, how much were you bothered by:",Taking too many risks or doing things that could cause you harm?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2388,2,1227,1.0,A little bit,""
+ ,2389,3,1227,2.0,Moderately,""
+ ,2390,4,1227,3.0,Quite a bit,""
+ ,2391,5,1227,4.0,Extremely,""
+ ,2392,1,1227,0.0,Not at all,""
+1228,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,superalert,,false,"In the past month, how much were you bothered by:",Being “superalert” or watchful or on guard?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2393,2,1228,1.0,A little bit,""
+ ,2394,3,1228,2.0,Moderately,""
+ ,2395,4,1228,3.0,Quite a bit,""
+ ,2396,5,1228,4.0,Extremely,""
+ ,2397,1,1228,0.0,Not at all,""
+1229,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,startled,,false,"In the past month, how much were you bothered by:",Feeling jumpy or easily startled?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2398,2,1229,1.0,A little bit,""
+ ,2399,3,1229,2.0,Moderately,""
+ ,2400,4,1229,3.0,Quite a bit,""
+ ,2401,5,1229,4.0,Extremely,""
+ ,2402,1,1229,0.0,Not at all,""
+1230,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,concentrating,,false,"In the past month, how much were you bothered by:",Having difficulty concentrating?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2403,2,1230,1.0,A little bit,""
+ ,2404,3,1230,2.0,Moderately,""
+ ,2405,4,1230,3.0,Quite a bit,""
+ ,2406,5,1230,4.0,Extremely,""
+ ,2407,1,1230,0.0,Not at all,""
+1231,"",SingleChoiceQuestion,,,,,,,true,true,true,"","",,true,asleep,,false,"In the past month, how much were you bothered by:",Trouble falling or staying asleep?,,false,,,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,2408,2,1231,1.0,A little bit,""
+ ,2409,3,1231,2.0,Moderately,""
+ ,2410,4,1231,3.0,Quite a bit,""
+ ,2411,5,1231,4.0,Extremely,""
+ ,2412,1,1231,0.0,Not at all,""

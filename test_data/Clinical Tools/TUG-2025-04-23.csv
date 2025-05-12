@@ -1,0 +1,53 @@
+id,157
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,TUG
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,TUG
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,[]
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[418, 1, ""Group1""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+3726,"",Instruction,,,,,,,true,false,false,"","","<p style=""line-height:1;""><strong>Purpose:</strong> To assess mobility</p>
+<p style=""line-height:1;""><strong>Equipment:</strong> A stopwatch</p>
+<p style=""line-height:1;""><strong>Directions:</strong> Patients wear their regular footwear and can use a walking aid, if needed. Begin by having the patient sit back in a standard arm chair and identify a line 3 meters, or 10 feet away, on the floor</p>",false,question_3726,,false,<strong>Timed Up & Go (TUG)</strong>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",418,false,false,"""[]"""
+3727,"",Instruction,,,,,,,true,false,false,"","","<p style=""line-height:1;""><strong>1. Instruct the patient: </strong></p>
+<p style=""line-height:1;"">NOTE: Always stay by the patient for safety.</p>
+<p style=""padding-left:40px;line-height:1;""><strong>When I say “Go,” I want you to: </strong></p>
+<p style=""padding-left:40px;line-height:1;"">1. Stand up from the chair.</p>
+<p style=""padding-left:40px;line-height:1;"">2. Walk to the line on the floor at your normal pace.</p>
+<p style=""padding-left:40px;line-height:1;"">3. Turn.</p>
+<p style=""padding-left:40px;line-height:1;"">4. Walk back to the chair at your normal pace.</p>
+<p style=""padding-left:40px;line-height:1;"">5. Sit down again.</p>
+<p style=""line-height:1;""><strong>2. On the word “Go,” begin timing.</strong></p>
+<p style=""line-height:1;""><strong>3. Stop timing after patient sits back down.</strong></p>
+<p style=""line-height:1;""><strong>4 Record time.</strong></p>",false,question_3727,,false,patient_instructions,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",418,false,false,"""[]"""
+3728,"",NumberQuestion,,,,,,,true,false,false,"","",,true,question_3728,,false,<strong>Time in Seconds:</strong>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",418,false,false,"""[]"""
+3729,"",Instruction,,,,,,,true,false,false,,,<p>An older adult who takes ≥12 seconds to complete the TUG is at risk for falling. </p>,false,question_3729,,false,info_text,,,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",418,false,false,"""[]"""
+3730,"",MultipleChoiceQuestion,,,,,,,true,false,false,"","",,true,question_3730,,false,<strong>OBSERVATIONS</strong>,"<strong>Observe the patient’s postural stability, gait, stride length, and sway. Check all that apply:</strong>",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",418,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,8028,1,3730,0.0,Slow tentative pace,""
+ ,8029,2,3730,0.0,Loss of balance,""
+ ,8030,3,3730,0.0,Short strides,""
+ ,8031,4,3730,0.0,Little or no arm swing,""
+ ,8032,5,3730,0.0,Steadying self on walls,""
+ ,8033,6,3730,0.0,Shuffling,""
+ ,8034,7,3730,0.0,En bloc turning,""
+ ,8035,8,3730,0.0,Not using assistive device properly,""
+3731,"",Instruction,,,,,,,true,false,false,,,<p>These changes may signify neurological problems that require further evaluation.</p>,false,question_3731,,false,info_text,,,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",418,false,false,"""[]"""
+3732,"",Instruction,,,,,,,true,false,false,,,"<p style=""text-align:center;""><span style=""font-size:8pt;"">CDC’s STEADI tools and resources can help you screen, assess, and intervene to reduce your patient’s fall risk. For more information, visit www.cdc.gov/steadi </span></p>",false,question_3732,,false,footer,,,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",418,false,false,"""[]"""

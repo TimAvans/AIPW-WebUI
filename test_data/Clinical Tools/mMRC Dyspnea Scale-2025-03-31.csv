@@ -1,0 +1,32 @@
+id,34
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,mMRC Dyspnea Scale
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,form_34
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""grade"", ""[form_34_statement_score]"", ""Grade"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+415,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,statement,,false,MRC Dyspnoea Scale,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1266,0,415,0.0,“I only get breathless with strenuous exercise”,""
+ ,1267,1,415,1.0,<div>“I get short of breath when hurrying on the level or walking up a slight hill”</div>,""
+ ,1268,2,415,2.0,<div>“I walk slower than people of the same age on the level because of breathlessness or have to stop for breath. when walking at my own pace on the level”</div>,""
+ ,1269,3,415,3.0,<div>“I stop for breath after walking about 100 yards or after a few minutes on the level”</div>,""
+ ,1270,4,415,4.0,<div>“I am too breathless to leave the house” or “I am breathless when dressing”</div>,""

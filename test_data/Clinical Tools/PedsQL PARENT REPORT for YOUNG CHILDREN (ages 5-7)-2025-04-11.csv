@@ -1,0 +1,140 @@
+id,51
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,PedsQL PARENT REPORT for YOUNG CHILDREN (ages 5-7)
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,questionnaire_51
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,[]
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[57, 1, ""PHYSICAL FUNCTIONING (problems with…)""], [58, 2, ""EMOTIONAL FUNCTIONING (problems with…)""], [59, 3, ""SOCIAL FUNCTIONING (problems with…)""], [60, 4, ""SCHOOL FUNCTIONING (problems with…)""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+741,"",Instruction,,,,,,,true,false,false,"PedsQL 4.0 - Parent(5-7)     Copyright © 1998 JW Varni, Ph.D. All rights reserved",,"<div>On the following page is a list of things that might be a problem for <strong>your child</strong>. Please tell us how much of a problem each one has been for <strong>your child</strong> during the <strong>past ONE month</strong> by selecting:</div>
+<div> </div>
+<div><strong>0</strong> if it is <strong>never</strong> a problem</div>
+<div><strong>1</strong> if it is <strong>almost never</strong> a problem</div>
+<div><strong>2</strong> if it is <strong>sometimes</strong> a problem</div>
+<div><strong>3</strong> if it is <strong>often</strong> a problem</div>
+<div><strong>4</strong> if it is <strong>almost always</strong> a problem</div>
+<div> </div>
+<div>There are no right or wrong answers.</div>
+<div>If you do not understand a question, please ask for help.</div>",false,question_741,,false,<strong>DIRECTIONS</strong>,,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+540,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_492,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Walking more than one block,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1841,0,540,0.0,Never,""
+ ,1842,1,540,1.0,Almost Never,""
+ ,1843,2,540,2.0,Sometimes,""
+ ,1844,3,540,3.0,Often,""
+ ,1845,4,540,4.0,Almost Always,""
+541,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_493,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Running,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1846,0,541,0.0,Never,""
+ ,1847,1,541,1.0,Almost Never,""
+ ,1848,2,541,2.0,Sometimes,""
+ ,1849,3,541,3.0,Often,""
+ ,1850,4,541,4.0,Almost Always,""
+542,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_494,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Participating in sports activity or exercise,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1851,0,542,0.0,Never,""
+ ,1852,1,542,1.0,Almost Never,""
+ ,1853,2,542,2.0,Sometimes,""
+ ,1854,3,542,3.0,Often,""
+ ,1855,4,542,4.0,Almost Always,""
+543,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_495,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Lifting something heavy,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1856,0,543,0.0,Never,""
+ ,1857,1,543,1.0,Almost Never,""
+ ,1858,2,543,2.0,Sometimes,""
+ ,1859,3,543,3.0,Often,""
+ ,1860,4,543,4.0,Almost Always,""
+544,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_496,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …","Doing chores, like picking up his or her toys",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",57,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1861,0,544,0.0,Never,""
+ ,1862,1,544,1.0,Almost Never,""
+ ,1863,2,544,2.0,Sometimes,""
+ ,1864,3,544,3.0,Often,""
+ ,1865,4,544,4.0,Almost Always,""
+545,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_497,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Feeling afraid or scared,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",58,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1866,0,545,0.0,Never,""
+ ,1867,1,545,1.0,Almost Never,""
+ ,1868,2,545,2.0,Sometimes,""
+ ,1869,3,545,3.0,Often,""
+ ,1870,4,545,4.0,Almost Always,""
+546,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_498,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Feeling sad or blue,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",58,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1871,0,546,0.0,Never,""
+ ,1872,1,546,1.0,Almost Never,""
+ ,1873,2,546,2.0,Sometimes,""
+ ,1874,3,546,3.0,Often,""
+ ,1875,4,546,4.0,Almost Always,""
+547,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_499,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Feeling angry,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",58,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1876,0,547,0.0,Never,""
+ ,1877,1,547,1.0,Almost Never,""
+ ,1878,2,547,2.0,Sometimes,""
+ ,1879,3,547,3.0,Often,""
+ ,1880,4,547,4.0,Almost Always,""
+548,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_500,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Worrying about what will happen to him or her,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",58,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1881,0,548,0.0,Never,""
+ ,1882,1,548,1.0,Almost Never,""
+ ,1883,2,548,2.0,Sometimes,""
+ ,1884,3,548,3.0,Often,""
+ ,1885,4,548,4.0,Almost Always,""
+549,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_501,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Getting along with other children,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",59,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1886,0,549,0.0,Never,""
+ ,1887,1,549,1.0,Almost Never,""
+ ,1888,2,549,2.0,Sometimes,""
+ ,1889,3,549,3.0,Often,""
+ ,1890,4,549,4.0,Almost Always,""
+550,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_502,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Other kids not wanting to be his or her friend,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",59,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1891,0,550,0.0,Never,""
+ ,1892,1,550,1.0,Almost Never,""
+ ,1893,2,550,2.0,Sometimes,""
+ ,1894,3,550,3.0,Often,""
+ ,1895,4,550,4.0,Almost Always,""
+551,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_503,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Getting teased by other children,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",59,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1896,0,551,0.0,Never,""
+ ,1897,1,551,1.0,Almost Never,""
+ ,1898,2,551,2.0,Sometimes,""
+ ,1899,3,551,3.0,Often,""
+ ,1900,4,551,4.0,Almost Always,""
+552,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_504,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Paying attention in class,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",60,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1901,0,552,0.0,Never,""
+ ,1902,1,552,1.0,Almost Never,""
+ ,1903,2,552,2.0,Sometimes,""
+ ,1904,3,552,3.0,Often,""
+ ,1905,4,552,4.0,Almost Always,""
+553,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_505,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Forgetting things,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",60,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1906,0,553,0.0,Never,""
+ ,1907,1,553,1.0,Almost Never,""
+ ,1908,2,553,2.0,Sometimes,""
+ ,1909,3,553,3.0,Often,""
+ ,1910,4,553,4.0,Almost Always,""
+554,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,question_506,,false,"In the past <strong>ONE month,</strong> how much of a <strong>problem</strong> has your child had with …",Keeping up with school activities,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",60,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1911,0,554,0.0,Never,""
+ ,1912,1,554,1.0,Almost Never,""
+ ,1913,2,554,2.0,Sometimes,""
+ ,1914,3,554,3.0,Often,""
+ ,1915,4,554,4.0,Almost Always,""

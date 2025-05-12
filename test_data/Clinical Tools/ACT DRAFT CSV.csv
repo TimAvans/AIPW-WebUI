@@ -1,0 +1,62 @@
+id,47
+external_id,""
+calculation_type,summation
+route_to_after_completion,""
+title,Asthma Control Test
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,ACT
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""total"", ""[ACT_work_done_score] + [ACT_shortness_of_breath_score] + [ACT_symptoms_score] + [ACT_rescue_inhaler_score] + [ACT_control_score]"", ""ACT Total"", 0.0, """", """"], [[""asthma symptoms may not be as well controlled as they could be."", ""#000000"", ""<"", 19.0], [""asthma symptoms may be very poorly controlled."", ""#000000"", ""<"", 15.0]]]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+488,"",SingleChoiceQuestion,,,,,,,true,false,true,"Copyright 2002, by QualityMetric Incorporated. <br>Asthma Control Test is a trademark of QualityMetric Incorporated. <br>The Asthma Control Test is for people with asthma 12 years and older",,,true,work_done,,false,"In the past <strong>4 weeks,</strong> how much of the time did your <strong>asthma</strong> keep you from getting as much done at work, school or at home?",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1591,1,488,1.0,All of the time,""
+ ,1592,2,488,2.0,Most of the time,""
+ ,1593,3,488,3.0,Some of the time,""
+ ,1594,4,488,4.0,A little of the time,""
+ ,1595,5,488,5.0,None of the time,""
+489,"",SingleChoiceQuestion,,,,,,,true,false,true,"Copyright 2002, by QualityMetric Incorporated. <br>Asthma Control Test is a trademark of QualityMetric Incorporated. <br>The Asthma Control Test is for people with asthma 12 years and older","",,true,shortness_of_breath,,false,"During the past <strong>4 weeks,</strong> how often have you had shortness of breath?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1596,1,489,1.0,More than once a day,""
+ ,1597,2,489,2.0,Once a day,""
+ ,1598,3,489,3.0,3 to 6 times a week,""
+ ,1599,4,489,4.0,Once or twice a week,""
+ ,1600,5,489,5.0,Not at all,""
+490,"",SingleChoiceQuestion,,,,,,,true,false,true,"Copyright 2002, by QualityMetric Incorporated. <br>Asthma Control Test is a trademark of QualityMetric Incorporated. <br>The Asthma Control Test is for people with asthma 12 years and older","",,true,symptoms,,false,"During the past <strong>4 weeks,</strong> how often did your <strong>asthma</strong> symptoms (wheezing, coughing, shortness of breath, chest tightness or pain) wake you up at night or earlier than usual in the morning?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1601,1,490,1.0,4 or more nights a week,""
+ ,1602,2,490,2.0,2 or 3 nights a week,""
+ ,1603,3,490,3.0,Once a week,""
+ ,1604,4,490,4.0,Once or twice,""
+ ,1605,5,490,5.0,Not at all,""
+491,"",SingleChoiceQuestion,,,,,,,true,false,true,"Copyright 2002, by QualityMetric Incorporated. <br>Asthma Control Test is a trademark of QualityMetric Incorporated. <br>The Asthma Control Test is for people with asthma 12 years and older","",,true,rescue_inhaler,,false,"During the past <strong>4 weeks,</strong> how often have you used your rescue inhaler or nebulizer medication (such as albuterol)?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1606,1,491,1.0,3 or more times per day,""
+ ,1607,2,491,2.0,1 or 2 times per day,""
+ ,1608,3,491,3.0,2 or 3 times per week,""
+ ,1609,4,491,4.0,Once a week or less,""
+ ,1610,5,491,5.0,Not at all,""
+507,"",SingleChoiceQuestion,,,,,,,true,false,true,"Copyright 2002, by QualityMetric Incorporated. <br>Asthma Control Test is a trademark of QualityMetric Incorporated. <br>The Asthma Control Test is for people with asthma 12 years and older","",,true,control,,false,How would you rate your <strong>asthma</strong> control during the <strong>past 4 weeks</strong>?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1686,1,507,1.0,Not controlled at all,""
+ ,1687,2,507,2.0,Poorly controlled,""
+ ,1688,3,507,3.0,Somewhat controlled,""
+ ,1689,4,507,4.0,Well controlled,""
+ ,1690,5,507,5.0,Completely controlled,""
+508,"",NumberQuestion,0.0,,,,,,true,false,false,"Copyright 2002, by QualityMetric Incorporated.<br>Asthma Control Test is a trademark of QualityMetric Incorporated.<br>The Asthma Control Test is for people with asthma 12 years and older","",,true,emergency_visit,,false,"In the past 12 months, how many emergency department visits have you had due to asthma (that did not result in a hospitalization)?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+509,"",NumberQuestion,0.0,,,,,,true,false,false,"Copyright 2002, by QualityMetric Incorporated.<br>Asthma Control Test is a trademark of QualityMetric Incorporated.<br>The Asthma Control Test is for people with asthma 12 years and older",,,true,question_509,,false,"In the past 12 months, how many inpatient hospitalizations have you had due to asthma?",,,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""

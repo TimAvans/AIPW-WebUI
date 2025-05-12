@@ -1,0 +1,190 @@
+id,75
+external_id,""
+calculation_type,not_applicable
+route_to_after_completion,""
+title,Charlson Comorbidity Index (CCI)  
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,"We would like to know about your health, including conditions, symptoms or diseases you may have. If you could please answer the following questions:"
+instructions_back_button,Go back
+instructions_next_button,"Got it, start!"
+survey_id,CCI
+new,true
+allow_instructions,true
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""CCI_Total_Score"", ""[CCI_CCI_age_score] + [CCI_CCI_sleeping_tablets_score] + [CCI_CCI_depression_medication_score] + [CCI_CCI_anxiety_medication_score] + [CCI_CCI_cardiovascular_medication_score] + [CCI_CCI_vitamin_D_supplement_score] + [CCI_CCI_AIDS_score] + [CCI_CCI_myocardial_infarction_score] + [CCI_CCI_congestive_heart_failure_score] + [CCI_CCI_peripheral_vascular_disease_score] + [CCI_CCI_ischaemic_attack_score] + [CCI_CCI_dementia_score] + [CCI_CCI_copd_score] + [CCI_CCI_connective_tissue_disease_score] + [CCI_CCI_peptic_ulcer_disease_score] + [CCI_CCI_liver_disease_score] + [CCI_CCI_leukaemia_score] + [CCI_CCI_lymphoma_score] + [CCI_CCI_diabetes_mellitus_score] + [CCI_CCI_malignant_solid_tumour_score] + [CCI_CCI_metastatic_non-metastatic_score] + [CCI_CCI_malignant_tumour_5_years_score] + [CCI_CCI_injuries_affecting_mobility_score] + [CCI_CCI_neck_pain_score] + [CCI_CCI_shoulder_pain_score] + [CCI_CCI_back_pain_score] + [CCI_CCI_hip_pain_score] + [CCI_CCI_knee_pain_score] + [CCI_CCI_feet_pain_score] + [CCI_CCI_other_pain_score] + [CCI_CCI_pain_frequency_score] + [CCI_CCI_pain_interference_score] + [CCI_CCI_walking_aid_inside_score] + [CCI_CCI_walking_aid_outside_score] + [CCI_CCI_walking_aid_type_score]"", ""CCI Total"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,"[[34, 1, ""Do you have or have you had any of the following?""], [35, 2, ""Have you suffered from any injuries or conditions that affect your MOBILITY NOW?""], [36, 4, ""Do you currently suffer from pain in any of the following areas?""], [37, 3, ""Walking Aids Use""], [38, 5, ""Do you take any of the following?""], [33, nil, ""Do you take any of the Following?""]]"
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+391,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_age,,false,What is your age range?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,974,1,391,1.0,50-59 years,""
+ ,975,2,391,2.0,60-69 years,""
+ ,976,3,391,3.0,70-79 years,""
+ ,977,4,391,4.0,≥ 80 years,""
+619,"",NumberQuestion,0.0,,,,,,true,false,false,"","",,true,CCI_medications,,false,How many different prescribed medications are you currently taking per day?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+393,"",Instruction,,,,,,,true,false,false,"","",<p>Do you take any of the following?</p>,false,CCI_info_1,,false,Do you take any of the following?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",38,false,false,"""[]"""
+394,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_sleeping_tablets,,false,Sleeping tablets?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",38,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1426,1,394,1.0,Yes,""
+ ,1427,2,394,0.0,No,""
+395,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_depression_medication,,false,Medication for depression?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",38,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1428,1,395,1.0,Yes,""
+ ,1429,2,395,0.0,No,""
+396,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_anxiety_medication,,false,Medication for anxiety?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",38,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1430,1,396,1.0,Yes,""
+ ,1431,2,396,0.0,No,""
+397,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_cardiovascular_medication,,false,Cardiovascular medication?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",38,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1432,1,397,1.0,Yes,""
+ ,1433,2,397,0.0,No,""
+398,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_vitamin_D_supplement,,false,Vitamin D supplements?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",38,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1434,1,398,1.0,Yes,""
+ ,1435,2,398,0.0,No,""
+399,"",Instruction,,,,,,,true,false,false,"","",<p>Do you have or have you had any of the following?</p>,false,CCI_info_2,,false,Do you have or have you had any of the following?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+400,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_AIDS,,false,AIDS?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1436,1,400,6.0,Yes,""
+ ,1437,2,400,0.0,No,""
+401,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_myocardial_infarction,,false,Myocardial infarction?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1438,1,401,1.0,Yes,""
+ ,1439,2,401,0.0,No,""
+402,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_congestive_heart_failure,,false,Congestive heart failure?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1440,1,402,1.0,Yes,""
+ ,1441,2,402,0.0,No,""
+403,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_peripheral_vascular_disease,,false,Peripheral vascular disease?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1442,1,403,1.0,Yes,""
+ ,1443,2,403,0.0,No,""
+404,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_ischaemic_attack,,false,Cerebrovascular accident or Transient ischaemic attack?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1444,1,404,3.0,"Yes, with hemiplegia",""
+ ,1445,2,404,1.0,"Yes, without hemiplegia",""
+ ,1446,3,404,0.0,No,""
+405,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_dementia,,false,Dementia?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1447,1,405,1.0,Yes,""
+ ,1448,2,405,0.0,No,""
+406,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_copd,,false,Chronic obstructive pulmonary disease?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1449,1,406,1.0,Yes,""
+ ,1450,2,406,0.0,No,""
+407,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_connective_tissue_disease,,false,Connective tissue disease?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1451,1,407,1.0,Yes,""
+ ,1452,2,407,0.0,No,""
+408,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_peptic_ulcer_disease,,false,Peptic ulcer disease?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1453,1,408,1.0,Yes,""
+ ,1454,2,408,0.0,No,""
+409,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_liver_disease,,false,Liver disease?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1455,1,409,3.0,Moderate or Severe,""
+ ,1456,2,409,1.0,Mild,""
+ ,1457,6,409,0.0,No,""
+410,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_leukaemia,,false,Leukaemia?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1458,1,410,1.0,Yes,""
+ ,1459,2,410,0.0,No,""
+411,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_lymphoma,,false,Lymphoma?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1460,1,411,1.0,Yes,""
+ ,1461,2,411,0.0,No,""
+412,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_diabetes_mellitus,,false,Diabetes mellitus?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1462,1,412,2.0,"With end organ damage (includes retinopathy, neuropathy, or brittle diabetes)",""
+ ,1463,2,412,1.0,Without end organ damage (excludes diet-controlled alone),""
+ ,1464,3,412,0.0,None or diet controlled,""
+413,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_malignant_solid_tumour,,false,Malignant solid tumour?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1465,1,413,1.0,Yes,""
+ ,1466,2,413,0.0,No,""
+414,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_metastatic_non-metastatic,,false,Was the malignant solid tumour metastatic or non-metastatic?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_malignant_silod_tumour] = [option_1465],34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1019,1,414,6.0,Metastatic,""
+ ,1020,2,414,2.0,Non-metastatic,""
+415,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_malignant_tumour_5_years,,false,Has it been over 5 years since malignant solid tumor diagnosis?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_malignant_solid_tumour] = [option_1465],34,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1467,1,415,1.0,Yes,""
+ ,1468,2,415,0.0,No,""
+417,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_injuries_affecting_mobility,,false,Have you suffered from any injuries or conditions that affect your MOBILITY NOW?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",35,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1469,1,417,1.0,Yes,""
+ ,1470,2,417,0.0,No,""
+418,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_injury_description,,false,<div>What injury or condition do you have that affects your mobility now?</div>,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_injuries_affecting_mobility] = [option_1469],35,false,false,"""[]"""
+419,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_injury_effect,,false,How does the injury or condition affect your mobility now?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_injuries_affecting_mobility] = [option_1469],35,false,false,"""[]"""
+420,"",Instruction,,,,,,,true,false,false,"","",<p>Do you currently suffer from pain in any of the following areas?</p>,false,CCI_info_3,,false,Do you currently suffer from pain in any of the following areas?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+421,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_neck_pain,,false,Neck?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1471,1,421,1.0,Yes,""
+ ,1472,2,421,0.0,No,""
+428,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_specify_neck_pain,,false,Please specify,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_neck_pain] = [option_1471],36,false,false,"""[]"""
+422,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_shoulder_pain,,false,Shoulder?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1473,1,422,1.0,Yes,""
+ ,1474,2,422,0.0,No,""
+429,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_specify_shoulder_pain,,false,Please specify,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_shoulder_pain] = [option_1473],36,false,false,"""[]"""
+423,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_back_pain,,false,Back?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1475,1,423,1.0,Yes,""
+ ,1476,2,423,0.0,No,""
+430,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_specify_back_pain,,false,Please specify,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_back_pain] = [option_1475],36,false,false,"""[]"""
+424,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_hip_pain,,false,Hip?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1477,1,424,1.0,Yes,""
+ ,1478,2,424,0.0,No,""
+431,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_specify_hip_pain,,false,Please specify,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_hip_pain] = [option_1477],36,false,false,"""[]"""
+425,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_knee_pain,,false,Knee?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1479,1,425,1.0,Yes,""
+ ,1480,2,425,0.0,No,""
+432,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_specify_knee_pain,,false,Please specify,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_knee_pain] = [option_1479],36,false,false,"""[]"""
+426,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_feet_pain,,false,Feet?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1481,1,426,1.0,Yes,""
+ ,1482,2,426,0.0,No,""
+433,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_specify_feet_pain,,false,Please specify,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_feet_pain] = [option_1481],36,false,false,"""[]"""
+427,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_other_pain,,false,Other?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1483,1,427,1.0,Yes,""
+ ,1484,2,427,0.0,No,""
+435,"",TextQuestion,,,,,,,true,false,false,"","",,true,CCI_specify_other_pain,,false,Please specify,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_other_pain] = [option_1483],36,false,false,"""[]"""
+436,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_pain_frequency,,false,How often did you experience serious pain in the PAST 30 DAYS?,"",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1041,1,436,0.0,Never,""
+ ,1042,2,436,1.0,< 1/wk,""
+ ,1043,3,436,2.0,3-4/wk,""
+ ,1044,4,436,3.0,Mostly,""
+437,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_pain_interference,,false,"During the PAST 30 DAYS, how much did pain interfere with your normal daily activities?","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",36,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1045,1,437,0.0,Not at all,""
+ ,1046,2,437,1.0,A little,""
+ ,1047,3,437,2.0,Somewhat,""
+ ,1048,4,437,3.0,Quite a bit,""
+ ,1049,5,437,4.0,All the time,""
+441,"",Instruction,,,,,,,true,false,false,"","",<p>Walking Aids Use</p>,false,CCI_info_4,,false,Walking Aids Use,"",,true,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",37,false,false,"""[]"""
+438,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_walking_aid_inside,,false,"Do you use a walking aid <span style=""text-decoration:underline;"">INSIDE the house? </span>","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",37,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1485,1,438,1.0,Yes,""
+ ,1486,2,438,0.0,No,""
+439,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_walking_aid_outside,,false,"Do you use a walking aid <span style=""text-decoration:underline;"">OUTSIDE the house? </span>","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",37,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1487,1,439,1.0,Yes,""
+ ,1488,2,439,0.0,No,""
+440,"",SingleChoiceQuestion,,,,,,,true,false,true,"","",,true,CCI_walking_aid_type,,false,"What type of walking aid do you use <span style=""text-decoration:underline;"">OUTSIDE the house?</span>","",,false,,Enter your response here,,,false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,[CCI_CCI_walking_aid_outside] = [option_1487],37,false,false,"""[]"""
+ ,id,index,question_id,score,text,external_id
+ ,1054,1,440,1.0,Walking stick,""
+ ,1055,2,440,2.0,Walking frame,""
+ ,1056,3,440,3.0,Crutches,""

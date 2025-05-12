@@ -1,0 +1,89 @@
+id,35
+external_id,""
+calculation_type,summation
+route_to_after_completion,""
+title,COPD Assessment Test
+subtitle,""
+description,""
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,false
+disable_progress_bar,false
+instructions_header,""
+instructions_back_button,""
+instructions_next_button,""
+survey_id,COPD2
+new,true
+allow_instructions,false
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,"[[[""total"", ""[COPD2_cough_score] + [COPD2_phlegm_score] + [COPD2_tight_chest_score] + [COPD2_breathless_score] + [COPD2_limited_activities_score] + [COPD2_confidence_score] + [COPD2_sound_sleep_score] + [COPD2_energy_score]"", ""COPD Total"", 0.0, """", """"], []]]"
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+416,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,cough,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",I never cough,false,I cough all the time,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,416,0.0,0.0
+ ,IsEqualTo,416,1.0,1.0
+ ,IsEqualTo,416,2.0,2.0
+ ,IsEqualTo,416,3.0,3.0
+ ,IsEqualTo,416,4.0,4.0
+ ,IsEqualTo,416,5.0,5.0
+417,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,phlegm,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",I have no phlegm (mucus) on my chest at all,false,My chest is full of phlegm (mucus),Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,417,0.0,0.0
+ ,IsEqualTo,417,1.0,1.0
+ ,IsEqualTo,417,2.0,2.0
+ ,IsEqualTo,417,3.0,3.0
+ ,IsEqualTo,417,4.0,4.0
+ ,IsEqualTo,417,5.0,5.0
+418,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,tight_chest,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",My chest does not feel tight at all,false,My chest feels very tight,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,418,0.0,0.0
+ ,IsEqualTo,418,1.0,1.0
+ ,IsEqualTo,418,2.0,2.0
+ ,IsEqualTo,418,3.0,3.0
+ ,IsEqualTo,418,4.0,4.0
+ ,IsEqualTo,418,5.0,5.0
+419,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,breathless,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",When I walk up a hill or a flight of stairs I am not out of breath,false,When I walk up a hill or a flight of stairs I am completely out of breath,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,419,0.0,0.0
+ ,IsEqualTo,419,1.0,1.0
+ ,IsEqualTo,419,2.0,2.0
+ ,IsEqualTo,419,3.0,3.0
+ ,IsEqualTo,419,4.0,4.0
+ ,IsEqualTo,419,5.0,5.0
+420,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,limited_activities,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",I am not limited to doing any activities at home,false,I am completely limited to doing all activities at home,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,420,0.0,0.0
+ ,IsEqualTo,420,1.0,1.0
+ ,IsEqualTo,420,2.0,2.0
+ ,IsEqualTo,420,3.0,3.0
+ ,IsEqualTo,420,4.0,4.0
+ ,IsEqualTo,420,10.0,5.0
+421,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,confidence,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",I am confident leaving my home despite my lung condition,false,I am not confident leaving my home at all because of my lung condition,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,421,0.0,0.0
+ ,IsEqualTo,421,1.0,1.0
+ ,IsEqualTo,421,2.0,2.0
+ ,IsEqualTo,421,3.0,3.0
+ ,IsEqualTo,421,4.0,4.0
+ ,IsEqualTo,421,5.0,5.0
+422,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,sound_sleep,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",I sleep soundly,false,I do not sleep soundly because of my lung condition,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,422,0.0,0.0
+ ,IsEqualTo,422,1.0,1.0
+ ,IsEqualTo,422,2.0,2.0
+ ,IsEqualTo,422,3.0,3.0
+ ,IsEqualTo,422,4.0,4.0
+ ,IsEqualTo,422,5.0,5.0
+423,"",RangeSliderQuestion,0.0,5.0,,1.0,,,true,false,true,"A COPD assessment test was developed by an interdisciplinary group of international COPD experts with support from GSK. GSK's activities in connection with the COPD assessment test are monitored by a supervisory council that includes external, independent experts, one of which is chair of the council. CAT, the COPD assessment test and the CAT logo are trademarks that belong to the GSK group of companies. ©2009 GSK. All rights reserved.","",,true,energy,,false,"For each item below, adjust the slider to value that best describes your current situation. Please ensure that you only select one response for each question.","",I have lots of energy,false,I have no energy at all,Enter your response here,horizontal,"",false,,no_decimal_places,no_overlay,allow_changing,false,false,,false,,"",,false,false,"""[]"""
+ ,type,question_id,score,value
+ ,IsEqualTo,423,0.0,0.0
+ ,IsEqualTo,423,1.0,1.0
+ ,IsEqualTo,423,2.0,2.0
+ ,IsEqualTo,423,3.0,3.0
+ ,IsEqualTo,423,4.0,4.0
+ ,IsEqualTo,423,5.0,5.0
