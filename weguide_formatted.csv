@@ -1,40 +1,55 @@
-id,1001
+id,1
 external_id,SF-36-2025-03-31
-calculation_type,mean
-route_to_after_completion,/completion/screen
-title,SF-36 Health Survey
-subtitle,36-Item Short Form Health Survey
-description,Please complete the following survey focusing on your recent health status.
-celebrate,True
-celebrate_text,Thank you for completing the SF-36 Health Survey. Your responses are important to us!
-confetti,True
+calculation_type,not_applicable
+route_to_after_completion,/thankyou
+title,Health Survey
+subtitle,SF-36 Questionnaire
+description,"Please answer the 36 questions of the Health Survey completely, honestly, and without interruptions."
+celebrate,False
+celebrate_text,
+confetti,False
 default_language,English
 show_question,True
 disable_progress_bar,False
 instructions_header,Instructions
 instructions_back_button,Back
 instructions_next_button,Next
-survey_id,SF36_2025
+survey_id,sf36_2025
 new,True
 allow_instructions,True
-supported_languages,"[""English""]"
-questionnaire_instructions,"[""Answer each question based on your health status over the past 4 weeks."", ""Do not skip questions unless instructed.""]"
-calculated_variables,"{""physical_functioning_score"": [], ""emotional_wellbeing_score"": []}"
-data_points,"{""participant"":[], ""survey"":[]}"
-question_groups,"[[1, 1, ""General Health""], [2, 2, ""Limitations of Activities""], [3, 3, ""Physical Health Problems""], [4, 4, ""Emotional Health Problems""], [5, 5, ""Social Activities""], [6, 6, ""Pain""], [7, 7, ""Energy and Emotions""]]"
+supported_languages,"['English', 'Dutch']"
+questionnaire_instructions,[]
+calculated_variables,{}
+data_points,"{'participant':[],'survey':[]}"
+question_groups,"[[1, 0, 'General Health'], [2, 1, 'Limitations of Activities'], [3, 2, 'Physical Health Problems'], [4, 3, 'Emotional Health Problems'], [5, 4, 'Pain'], [6, 5, 'Energy and Emotions'], [7, 6, 'Social Activities']]"
 
 id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
-101,,SingleChoiceQuestion,0,0,,,0,0,True,False,True,,,Rate your general health.,True,general_health,,,"In general, would you say your health is:",,,,,,vertical,general_health,,,,,,,,,,,,1,False,False,
+1,,SingleChoiceQuestion,0,0,,,0,0,True,False,False,,,"In general, would you say your health is:",True,health_overall,,,How would you rate your health?,,,,,,vertical,General Health,,,,,,,,,,,{},1,False,False,{}
 ,id,index,question_id,score,text,external_id
-,201,1,101,5,Excellent,
-,202,2,101,4,Very Good,
-,203,3,101,3,Good,
-,204,4,101,2,Fair,
-,205,5,101,1,Poor,
-102,,SingleChoiceQuestion,0,0,,,0,0,True,False,True,,,Rate your health compared to a year ago.,True,health_comparison,,,"Compared to one year ago, how would you rate your health in general now?",,,,,,vertical,health_comparison,,,,,,,,,,,,1,False,False,
+,1,0,1,0,Excellent,
+,2,1,1,0,Very Good,
+,3,2,1,0,Good,
+,4,3,1,0,Fair,
+,5,4,1,0,Poor,
+2,,SingleChoiceQuestion,0,0,,,0,0,True,False,False,,,"Compared to one year ago, how would you rate your health in general now?",True,health_comparison,,,Health Comparison to Last Year,,,,,,vertical,Health Comparison,,,,,,,,,,,{},1,False,False,{}
 ,id,index,question_id,score,text,external_id
-,206,1,102,5,Much better now than one year ago,
-,207,2,102,4,Somewhat better now than one year ago,
-,208,3,102,3,About the same,
-,209,4,102,2,Somewhat worse now than one year ago,
-,210,5,102,1,Much worse than one year ago,
+,6,0,2,0,Much better now than one year ago,
+,7,1,2,0,Somewhat better now than one year ago,
+,8,2,2,0,About the same,
+,9,3,2,0,Somewhat worse now than one year ago,
+,10,4,2,0,Much worse than one year ago,
+3,,SingleChoiceQuestion,0,0,,,0,0,True,False,False,,,"Does your health now limit you in these activities? If so, how much?",True,vigorous_activity,,,Vigorous activities limitation,,,,,,vertical,Vigorous Activity Limit,,,,,,,,,,,{},2,False,False,{}
+,id,index,question_id,score,text,external_id
+,11,0,3,0,"Yes, Limited a lot",
+,12,1,3,0,"Yes, Limited a Little",
+,13,2,3,0,"No, Not Limited at all",
+4,,SingleChoiceQuestion,0,0,,,0,0,True,False,False,,,"Moderate activities, such as moving a table or playing golf.",True,moderate_activity,,,Moderate activities limitation,,,,,,vertical,Moderate Activity Limit,,,,,,,,,,,{},2,False,False,{}
+,id,index,question_id,score,text,external_id
+,14,0,4,0,"Yes, Limited a lot",
+,15,1,4,0,"Yes, Limited a Little",
+,16,2,4,0,"No, Not Limited at all",
+5,,SingleChoiceQuestion,0,0,,,0,0,True,False,False,,,Lifting or carrying groceries.,True,lifting_carrying,,,Lifting or Carrying Limitation,,,,,,vertical,Lifting Carrying Limit,,,,,,,,,,,{},2,False,False,{}
+,id,index,question_id,score,text,external_id
+,17,0,5,0,"Yes, Limited a lot",
+,18,1,5,0,"Yes, Limited a Little",
+,19,2,5,0,"No, Not Limited at all",

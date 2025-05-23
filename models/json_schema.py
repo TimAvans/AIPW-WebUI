@@ -1,4 +1,4 @@
-json_output = {
+generator_output = {
       "type": "json_schema",
       "json_schema": {
         "name": "weguide_questionnaire",
@@ -113,3 +113,28 @@ json_output = {
         }
       }
     }
+
+
+discriminator_output = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "weguide_csv_validation_result",
+        "strict": True,
+        "schema": {
+            "type": "object",
+            "required": ["accepted", "feedback"],
+            "properties": {
+                "accepted": {
+                    "type": "boolean",
+                    "description": "True if the CSV content is valid according to the WeGuide format"
+                },
+                "feedback": {
+                    "type": "string",
+                    "description": "Detailed explanation of what was valid or invalid"
+                }
+            },
+            "additionalProperties": False
+        }
+    }
+}
+

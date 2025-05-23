@@ -1,0 +1,24 @@
+id,1001
+external_id,Test
+calculation_type,not_applicable
+route_to_after_completion,""
+title,SF-36 Health Survey
+subtitle,36-Item Short Form Health Survey
+description,Please complete the following survey focusing on your recent health status.
+celebrate,true
+celebrate_text,<p>Thank you for completing the SF-36 Health Survey. Your responses are important to us!</p>
+confetti,true
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,Instructions
+instructions_back_button,Back
+instructions_next_button,Next
+survey_id,SF36_2025
+new,true
+allow_instructions,true
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,[]
+data_points,"{""participant""=>[], ""survey""=>[]}"
+question_groups,[]

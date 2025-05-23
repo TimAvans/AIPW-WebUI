@@ -4,9 +4,10 @@ from dotenv import load_dotenv
 import os
 import base64
 from pathlib import Path
-from models.json_schema import json_output
+from models.json_schema import generator_output
 
 class OpenRouterService():
+    """Service for communicating with the OpenRouter API"""
 
     def __init__(self, api_key=None, url=None) -> None:
         load_dotenv()
@@ -14,6 +15,7 @@ class OpenRouterService():
         self.url = url or os.getenv('ROUTER_API_URL')
 
     def chat_request(self, message, model="openai/gpt-4o"):
+        """Request for a regular chatrequest with the OpenRouter API"""
         response = requests.post(
         url=self.url,
         headers={
@@ -36,7 +38,8 @@ class OpenRouterService():
             return base64.b64encode(pdf_file.read()).decode('utf-8')
 
     
-    def pdf_extraction_request_structured_output(self, message, pdf_path, model="openai/gpt-4o"):
+    def pdf_extraction_request_structured_output(self, message, pdf_path, model="openai/gpt-4o", response_format=generator_output):
+        """Request for extracting text from a PDF file and returning a structured output"""
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json"
@@ -47,12 +50,12 @@ class OpenRouterService():
             "text": message
         }]
 
-        print(f"Processing pdf {pdf_path}")
+        # print(f"Processing pdf {pdf_path}")
         base64_pdf = self.encode_pdf_to_base64(pdf_path)
         data_url = f"data:application/pdf;base64,{base64_pdf}"
         filename = Path(pdf_path).name
         
-        print(f"Data url: {data_url}")
+        # print(f"Data url: {data_url}")
 
         content_blocks.append({
             "type": "file",
@@ -81,7 +84,7 @@ class OpenRouterService():
             "model": model,
             "messages": messages,
             "plugins": plugins,
-            "response_format": json_output
+            "response_format": response_format
         }
 
         response = requests.post(self.url, headers=headers, json=payload)
@@ -89,6 +92,7 @@ class OpenRouterService():
         return response.json()
 
     def pdf_extraction_request(self, message, pdf_path, model="openai/gpt-4o"):
+        """Request for extracting text from a PDF file"""
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json"
@@ -100,12 +104,12 @@ class OpenRouterService():
         }]
 
         # for path in pdf_paths:
-        print(f"Processing pdf {pdf_path}")
+        # print(f"Processing pdf {pdf_path}")
         base64_pdf = self.encode_pdf_to_base64(pdf_path)
         data_url = f"data:application/pdf;base64,{base64_pdf}"
         filename = Path(pdf_path).name
         
-        print(f"Data url: {data_url}")
+        # print(f"Data url: {data_url}")
 
         content_blocks.append({
             "type": "file",

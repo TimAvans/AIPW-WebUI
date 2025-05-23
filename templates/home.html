@@ -3,32 +3,128 @@
 {% block title %} Home {% endblock %}
 
 {% block page_content %}
-<h1>PDF upload</h1>
-<form action="{{ url_for('upload_pdf') }}" method="POST" enctype="multipart/form-data">
-    <div class="mb-3">
-        <label for="pdf_file" class="form-label">Select PDF file:</label>
-        <input class="form-control" type="file" id="pdf_file" name="pdf_file" accept="application/pdf" required>
+<!-- Loading Overlay -->
+<div id="loadingOverlay" class="position-fixed top-0 start-0 w-100 h-100 d-none" style="background: rgba(0,0,0,0.5); z-index: 9999;">
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+        <div class="spinner-border mb-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <h4 id="loadingStatus">Processing your file...</h4>
+        <p id="loadingDetails" class="mb-0">This may take a few moments</p>
     </div>
-    <button type="submit" class="btn btn-primary">Convert</button>
-</form>
+</div>
 
-<!-- Prompt Update Form -->
-<h2>Edit Extraction Prompt</h2>
-<form action="{{ url_for('update_prompt') }}" method="POST">
-    <div class="mb-3">
-        <label for="prompt" class="form-label">Prompt:</label>
-        <textarea class="form-control" id="prompt" name="prompt" rows="10" required>{{ current_prompt }}</textarea>
-    </div>
-    <button type="submit" class="btn btn-success">Update Prompt</button>
-</form>
+<div class="container mt-4">
+    <!-- Flashed Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category if category else 'info' }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
 
-<!-- Prompt Update Form -->
-<h2>Edit Extraction Model</h2>
-<form action="{{ url_for('update_model') }}" method="POST">
-    <div class="mb-3">
-        <label for="model" class="form-label">Model:</label>
-        <textarea class="form-control" id="model" name="model" rows="10" required>{{ current_model }}</textarea>
+    <div class="row">
+        <div class="col-lg-5 col-md-6 mb-4"> {# Adjusted column for better balance on larger screens #}
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="h5 mb-0">PDF Upload & Processing</h2>
+                </div>
+                <div class="card-body">
+                    <form action="{{ url_for('upload_pdf') }}" method="POST" enctype="multipart/form-data" id="uploadForm">
+                        <div class="mb-3">
+                            <label for="pdf_file" class="form-label">Select PDF file:</label>
+                            <input class="form-control" type="file" id="pdf_file" name="pdf_file" accept="application/pdf" required>
+                            <div class="form-text">Only .pdf files are accepted. Processing may take a moment.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" id="uploadButton">Upload and Process</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-7 col-md-6 mb-4"> {# Adjusted column #}
+            <div class="card shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h2 class="h5 mb-0">LLM Configuration</h2>
+                </div>
+                <div class="card-body">
+                    {# Assumes your home route passes a 'config' object: config=prompt_model #}
+                    <form action="{{ url_for('update_prompt') }}" method="POST">
+                        <fieldset class="mb-4 p-3 border rounded">
+                            <legend class="h6 text-muted">Generator Settings</legend>
+                            <div class="mb-3">
+                                <label for="generator_prompt" class="form-label">Generator Prompt:</label>
+                                <textarea class="form-control" id="generator_prompt" name="generator_prompt" rows="5" required>{{ config.generator_prompt if config else '' }}</textarea>
+                                <div class="form-text">The main instruction for the content generator.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="generator_model" class="form-label">Generator Model:</label>
+                                <input type="text" class="form-control" id="generator_model" name="generator_model" value="{{ config.generator_model if config else '' }}" placeholder="e.g., gpt-4-turbo" required>
+                                <div class="form-text">Specify the AI model for generation.</div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="mb-4 p-3 border rounded">
+                            <legend class="h6 text-muted">Discriminator Settings</legend>
+                            <div class="mb-3">
+                                <label for="discriminator_prompt" class="form-label">Discriminator Prompt:</label>
+                                <textarea class="form-control" id="discriminator_prompt" name="discriminator_prompt" rows="5" required>{{ config.discriminator_prompt if config else '' }}</textarea>
+                                <div class="form-text">The instruction for the evaluator.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="discriminator_model" class="form-label">Discriminator Model:</label>
+                                <input type="text" class="form-control" id="discriminator_model" name="discriminator_model" value="{{ config.discriminator_model if config else '' }}" placeholder="e.g., claude-3-sonnet" required>
+                                <div class="form-text">Specify the AI model for discrimination/evaluation.</div>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-success w-100">Update All Configurations</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    <button type="submit" class="btn btn-success">Update Model</button>
-</form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('uploadForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const formData = new FormData(this);
+    const loadingOverlay = document.getElementById('loadingOverlay');
+    const loadingStatus = document.getElementById('loadingStatus');
+    const loadingDetails = document.getElementById('loadingDetails');
+    const uploadButton = document.getElementById('uploadButton');
+    
+    // Show loading overlay
+    loadingOverlay.classList.remove('d-none');
+    uploadButton.disabled = true;
+    
+    fetch('{{ url_for("upload_pdf") }}', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            throw new Error(data.error);
+        }
+        // Reload the page to show the flash message
+        window.location.reload();
+    })
+    .catch(error => {
+        loadingStatus.textContent = 'Error occurred';
+        loadingDetails.textContent = error.message;
+        setTimeout(() => {
+            loadingOverlay.classList.add('d-none');
+            uploadButton.disabled = false;
+        }, 2000);
+    });
+});
+</script>
 {% endblock %}
