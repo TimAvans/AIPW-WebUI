@@ -9,7 +9,8 @@ generator_output = {
                        "description", "celebrate", "celebrate_text", "confetti", "default_language", "show_question", 
                        "disable_progress_bar", "instructions_header", "instructions_back_button", "instructions_next_button", 
                        "survey_id", "new", "allow_instructions", "supported_languages", "questionnaire_instructions", 
-                       "calculated_variables", "data_points", "question_groups", "questions"],
+                       "calculated_variables", "data_points", #"question_groups"
+                       "questions"],
           "properties": {
             "id": {
                 "type": "integer", "description": "Generate a unique ID for this questionnaire"
@@ -24,7 +25,7 @@ generator_output = {
             "subtitle": {"type": "string"},
             "description": {"type": "string"},
             "celebrate": {"type": "boolean"},
-            "celebrate_text": {"type": "string"},
+            "celebrate_text": {"type": "string", "default": ""},
             "confetti": {"type": "boolean"},
             "default_language": {"type": "string"},
             "show_question": {"type": "boolean"},
@@ -45,7 +46,7 @@ generator_output = {
             },
             "calculated_variables": {"type": "string"},
             "data_points": {"type": "string"},
-            "question_groups": {"type": "string"},
+            # "question_groups": {"type": "string"},
             "questions": {
               "type": "array",
               "items": {

@@ -22,7 +22,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 OPENROUTER_SERVICE = OpenRouterService()
 
 CONFIG_FILE = "prompt.json"
-FEEDBACK_LIMIT = 1
+FEEDBACK_LIMIT = 3
 
 DISCRIMINATOR = Discriminator(openrouter_service=OPENROUTER_SERVICE)
 GENERATOR = Generator(openrouter_service=OPENROUTER_SERVICE)
@@ -43,7 +43,6 @@ def update_prompt():
             "discriminator_prompt": request.form.get("discriminator_prompt"),
             "discriminator_model": request.form.get("discriminator_model"),
         }
-        # Validate with Pydantic (it will raise ValidationError if data is bad)
         updated_config = LLMConfig(**new_config_data)
 
         current_config = get_config_data()

@@ -1,0 +1,234 @@
+id,1
+external_id,SF36_2025
+calculation_type,not_applicable
+route_to_after_completion,/thank-you
+title,Health Survey
+subtitle,A comprehensive assessment of your well-being
+description,"Please answer the 36 questions of the Health Survey completely, honestly, and without interruptions."
+celebrate,false
+celebrate_text,""
+confetti,false
+default_language,English
+show_question,true
+disable_progress_bar,false
+instructions_header,Instructions
+instructions_back_button,Back
+instructions_next_button,Next
+survey_id,sf36_survey_01
+new,true
+allow_instructions,true
+supported_languages,[English]
+questionnaire_instructions,[]
+calculated_variables,{}
+data_points,"{""participant""=>[],""survey""=>[]}"
+question_groups,[]
+id,external_id,type,minimum,maximum,default_value,step,minimum_length,maximum_length,mandatory,confirm_skip,scoring,footer,info_text,description,save_answer,short_name,binah_question_id,no_value,title,subtitle,minimum_label,title_hidden,maximum_label,placeholder,orientation,data_label,allow_verify,allow_verify_text,decimal_places,overlay,camera,allow_instructions,allow_recording_instructions,recording_instructions,restrict_video_length,max_video_time,conditional_logic,question_group_id,show_as_dropdown,restricted,routing_logic
+1,GH001,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,"In general, would you say your health is:",true,general_health,,,Overall Health Rating,,,,,,,Overall Health,,,,,,,,,,,{},1,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,1,5,Excellent,
+,2,2,1,4,Very Good,
+,3,3,1,3,Good,
+,4,4,1,2,Fair,
+,5,5,1,1,Poor,
+2,GH002,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,"Compared to one year ago, how would you rate your health in general now?",true,health_comparison,,,Health Comparison,,,,,,,Health Comparison,,,,,,,,,,,{},1,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,2,5,Much better now than one year ago,
+,2,2,2,4,Somewhat better now than one year ago,
+,3,3,2,3,About the same,
+,4,4,2,2,Somewhat worse than one year ago,
+,5,5,2,1,Much worse than one year ago,
+3,LA001,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,"Does your health now limit you in vigorous activities, such as running, lifting heavy objects, participating in strenuous sports?",true,vigorous_activity_limit,,,Vigorous Activity Limit,,,,,,,Vigorous Activity Limit,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,3,3,"Yes, Limited a lot",
+,2,2,3,2,"Yes, Limited a Little",
+,3,3,3,1,"No, Not Limited at all",
+4,LA002,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,"Does your health now limit you in moderate activities, such as moving a table, pushing a vacuum cleaner, bowling, or playing golf?",true,moderate_activity_limit,,,Moderate Activity Limit,,,,,,,Moderate Activity Limit,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,4,3,"Yes, Limited a Lot",
+,2,2,4,2,"Yes, Limited a Little",
+,3,3,4,1,"No, Not Limited at all",
+5,LA003,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,Does your health now limit you in lifting or carrying groceries?,true,grocery_limit,,,Grocery Carrying Limit,,,,,,,Grocery Carrying Limit,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,5,3,"Yes, Limited a Lot",
+,2,2,5,2,"Yes, Limited a Little",
+,3,3,5,1,"No, Not Limited at all",
+6,LA004,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,Does your health now limit you in climbing several flights of stairs?,true,stairs_limit_several,,,Climbing Several Flights Limit,,,,,,,Climbing Several Flights Limit,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,6,3,"Yes, Limited a Lot",
+,2,2,6,2,"Yes, Limited a Little",
+,3,3,6,1,"No, Not Limited at all",
+7,LA005,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,Does your health now limit you in climbing one flight of stairs?,true,stairs_limit_one,,,Climbing One Flight Limit,,,,,,,Climbing One Flight Limit,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,7,3,"Yes, Limited a Lot",
+,2,2,7,2,"Yes, Limited a Little",
+,3,3,7,1,"No, Not Limited at all",
+8,LA006,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,"Does your health now limit you in bending, kneeling, or stooping?",true,bending_limit,,,Bending Limitation,,,,,,,Bending Limitation,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,8,3,"Yes, Limited a Lot",
+,2,2,8,2,"Yes, Limited a Little",
+,3,3,8,1,"No, Not Limited at all",
+9,LA007,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,Does your health now limit you in walking more than a mile?,true,walking_limit_mile,,,Walking Limit More Than a Mile,,,,,,,Walking Limit More,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,9,3,"Yes, Limited a Lot",
+,2,2,9,2,"Yes, Limited a Little",
+,3,3,9,1,"No, Not Limited at all",
+10,LA008,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,Does your health now limit you in walking several blocks?,true,walking_limit_blocks,,,Walking Limit Several Blocks,,,,,,,Walking Limit Several,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,10,3,"Yes, Limited a Lot",
+,2,2,10,2,"Yes, Limited a Little",
+,3,3,10,1,"No, Not Limited at all",
+11,LA009,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,Does your health now limit you in walking one block?,true,walking_limit_one_block,,,Walking Limit One Block,,,,,,,Walking Limit One Block,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,11,3,"Yes, Limited a Lot",
+,2,2,11,2,"Yes, Limited a Little",
+,3,3,11,1,"No, Not Limited at all",
+12,LA010,SingleChoiceQuestion,1,3,,,0,0,true,false,false,,,Does your health now limit you in bathing or dressing yourself?,true,bathing_dressing_limit,,,Bathing or Dressing Limit,,,,,,,Bathing or Dressing Limit,,,,,,,,,,,{},2,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,12,3,"Yes, Limited a Lot",
+,2,2,12,2,"Yes, Limited a Little",
+,3,3,12,1,"No, Not Limited at all",
+13,PH001,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, have you had any problems with your work or other regular daily activities as a result of your physical health?",true,physical_health_problem,,,Physical Health Problems,,,,,,,Physical Health Problems,,,,,,,,,,,{},3,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,13,1,Yes,
+,2,2,13,2,No,
+14,PH002,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, have you cut down the amount of time you spent on work or other activities due to physical health problems?",true,cut_down_time,,,Cut Down Time because of Physical Health,,,,,,,Cut Down Time,,,,,,,,,,,{},3,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,14,1,Yes,
+,2,2,14,2,No,
+15,PH003,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, have you accomplished less than you would like due to physical health problems?",true,accomplished_less,,,Accomplished Less due to Physical Health,,,,,,,Accomplished Less,,,,,,,,,,,{},3,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,15,1,Yes,
+,2,2,15,2,No,
+16,PH004,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, have you been limited in the kind of work or other activities because of physical health problems?",true,limited_type_of_work,,,Limited in Activities due to Physical Health,,,,,,,Limited in Activities,,,,,,,,,,,{},3,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,16,1,Yes,
+,2,2,16,2,No,
+17,PH005,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, have you had difficulty performing work or other activities due to physical health problems?",true,difficulty_performing,,,Difficulty Performing due to Physical Health,,,,,,,Difficulty Performing,,,,,,,,,,,{},3,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,17,1,Yes,
+,2,2,17,2,No,
+18,EH001,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, how much emotional problems interfered with your work or other regular daily activities?",true,emotional_interfere,,,Emotional Health Problems,,,,,,,Emotional Health Problems,,,,,,,,,,,{},4,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,18,1,Yes,
+,2,2,18,2,No,
+19,EH002,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, have you cut down the amount of time you spent on work or other activities due to emotional problems?",true,emotional_cut_down_time,,,Cut Down Time because of Emotional Problems,,,,,,,Emotional Cut Down Time,,,,,,,,,,,{},4,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,19,1,Yes,
+,2,2,19,2,No,
+20,EH003,SingleChoiceQuestion,1,2,,,0,0,true,false,false,,,"During the past 4 weeks, have you accomplished less than you would like due to emotional problems?",true,emotional_accomplished_less,,,Accomplished Less due to Emotional Problems,,,,,,,Emotional Accomplished Less,,,,,,,,,,,{},4,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,20,1,Yes,
+,2,2,20,2,No,
+21,SOC001,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,"Emotional problems interfered with your normal social activities with family, friends, neighbors, or groups?",true,social_interference,,,Social Activities Interference,,,,,,,Social Activities Interference,,,,,,,,,,,{},5,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,21,1,Not at all,
+,2,2,21,2,Slightly,
+,3,3,21,3,Moderately,
+,4,4,21,4,Severe,
+,5,5,21,5,Very Severe,
+22,PA001,SingleChoiceQuestion,1,6,,,0,0,true,false,false,,,How much bodily pain have you had during the past 4 weeks?,true,bodily_pain,,,Bodily Pain Level,,,,,,,Bodily Pain Level,,,,,,,,,,,{},6,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,22,1,None,
+,2,2,22,2,Very Mild,
+,3,3,22,3,Mild,
+,4,4,22,4,Moderate,
+,5,5,22,5,Severe,
+,6,6,22,6,Very Severe,
+23,PA002,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,How much did pain interfere with your normal work (including both work outside the home and housework)?,true,pain_interference,,,Pain Interference Level,,,,,,,Pain Interference Level,,,,,,,,,,,{},6,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,23,1,Not at all,
+,2,2,23,2,A little bit,
+,3,3,23,3,Moderately,
+,4,4,23,4,Quite a bit,
+,5,5,23,5,Extremely,
+24,EE001,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Did you feel full of pep?,true,full_of_pep,,,Energy Level,,,,,,,Energy Level,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,24,5,All of the time,
+,2,2,24,4,Most of the time,
+,3,3,24,3,A good bit of the time,
+,4,4,24,2,Some of the time,
+,5,5,24,1,None of the time,
+25,EE002,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Have you been a very nervous person?,true,nervous_person,,,Nervousness Level,,,,,,,Nervousness Level,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,25,5,All of the time,
+,2,2,25,4,Most of the time,
+,3,3,25,3,A good bit of the time,
+,4,4,25,2,Some of the time,
+,5,5,25,1,None of the time,
+26,EE003,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Have you felt so down in the dumps that nothing could cheer you up?,true,down_in_dumps,,,Mood Level,,,,,,,Mood Level,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,26,5,All of the time,
+,2,2,26,4,Most of the time,
+,3,3,26,3,A good bit of the time,
+,4,4,26,2,Some of the time,
+,5,5,26,1,None of the time,
+27,EE004,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Have you felt calm and peaceful?,true,calm_peaceful,,,Calmness Level,,,,,,,Calmness Level,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,27,5,All of the time,
+,2,2,27,4,Most of the time,
+,3,3,27,3,A good bit of the time,
+,4,4,27,2,Some of the time,
+,5,5,27,1,None of the time,
+28,EE005,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Did you have a lot of energy?,true,energy_level,,,Energy Level Assessment,,,,,,,Energy Level,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,28,5,All of the time,
+,2,2,28,4,Most of the time,
+,3,3,28,3,A good bit of the time,
+,4,4,28,2,Some of the time,
+,5,5,28,1,None of the time,
+29,EE006,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Have you felt downhearted and blue?,true,downhearted_blue,,,Mood Assessment,,,,,,,Mood Assessment,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,29,5,All of the time,
+,2,2,29,4,Most of the time,
+,3,3,29,3,A good bit of the time,
+,4,4,29,2,Some of the time,
+,5,5,29,1,None of the time,
+30,EE007,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Did you feel worn out?,true,worn_out,,,Fatigue Assessment,,,,,,,Fatigue Assessment,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,30,5,All of the time,
+,2,2,30,4,Most of the time,
+,3,3,30,3,A good bit of the time,
+,4,4,30,2,Some of the time,
+,5,5,30,1,None of the time,
+31,EE008,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Have you been a happy person?,true,happy_person,,,Happiness Assessment,,,,,,,Happiness Assessment,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,31,5,All of the time,
+,2,2,31,4,Most of the time,
+,3,3,31,3,A good bit of the time,
+,4,4,31,2,Some of the time,
+,5,5,31,1,None of the time,
+32,EE009,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,Did you feel tired?,true,tired,,,Tiredness Assessment,,,,,,,Tiredness Assessment,,,,,,,,,,,{},7,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,32,5,All of the time,
+,2,2,32,4,Most of the time,
+,3,3,32,3,A good bit of the time,
+,4,4,32,2,Some of the time,
+,5,5,32,1,None of the time,
+33,SO001,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,"During the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities (like visiting with friends, relatives, etc.)?",true,social_interfered,,,Social Activities Interference,,,,,,,Social Activities Interference,,,,,,,,,,,{},5,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,33,5,All of the time,
+,2,2,33,4,Most of the time,
+,3,3,33,3,Some of the time,
+,4,4,33,2,A little bit of the time,
+,5,5,33,1,None of the time,
+34,GH003,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,How true or false is each of the following statements for you?,true,sick_easier_than_others,,,Sick Easier than Others,,,,,,,Sick Easier than Others,,,,,,,,,,,{},1,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,34,5,Definitely true,
+,2,2,34,4,Mostly true,
+,3,3,34,3,Don't know,
+,4,4,34,2,Mostly false,
+,5,5,34,1,Definitely false,
+35,GH004,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,I am as healthy as anybody I know,true,healthy_as_anyone,,,Healthy as Anyone,,,,,,,Healthy as Anyone,,,,,,,,,,,{},1,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,35,5,Definitely true,
+,2,2,35,4,Mostly true,
+,3,3,35,3,Don't know,
+,4,4,35,2,Mostly false,
+,5,5,35,1,Definitely false,
+36,GH005,SingleChoiceQuestion,1,5,,,0,0,true,false,false,,,I expect my health to get worse,true,expect_health_worse,,,Expect Health to Get Worse,,,,,,,Expect Health to Get Worse,,,,,,,,,,,{},1,false,false,{}
+,id,index,question_id,score,text,external_id
+,1,1,36,5,Definitely true,
+,2,2,36,4,Mostly true,
+,3,3,36,3,Don't know,
+,4,4,36,2,Mostly false,
+,5,5,36,1,Definitely false,
